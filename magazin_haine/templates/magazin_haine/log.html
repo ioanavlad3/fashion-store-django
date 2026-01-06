@@ -1,0 +1,127 @@
+{% extends "magazin_haine/baza.html" %}
+{% load static %}
+
+{% block title %}Log accesari{% endblock %}
+
+
+
+{% block content %}
+
+{% if show_count %}
+    <h2>{{ total_count }} accesari</h2>
+{% else %}
+
+    <h1>accesari</h1>
+
+{% endif %}
+<h2>toate accesarile</h2>
+    <p class="descriere">
+        aici sunt afiaate toate accesarile paginilor site-ului.</p>
+        <hr>
+
+{% if display_cols %}
+    <div class="table-wrap">
+    <table class="table">
+    <thead>
+        <tr>
+            {% for col in display_cols %}
+            <th scope="col">{{ col.label }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in logs %}
+            <tr>
+            {% for col in display_cols %}
+            <td>
+                {% if col.key == "data" %}
+                    {{ item.data|date:"d/m/Y H:i" }}
+                {% elif col.key == "path" %}
+                    <code>{{ item.path }}</code>
+                {% elif col.key == "id" %}
+                    {{ item.id }}
+                {%endif%}
+                </td>
+            {% endfor %}
+            </tr>
+        {% empty %}
+            <tr>
+            <td colspan="{{ display_cols|length }}"><em>Nu exista accesari inregistrate.</em></td>
+            </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+</div>
+{% else %}
+
+{% if logs %}
+    <div class="table-wrap">
+    <table class="table">
+    <thead>
+    <tr>
+        {% if show_ids %}<th scope="col">ID</th>{% endif %}
+        <th scope="col">cale</th>
+        {% if show_details %}<th scope="col">data</th>
+        {% endif %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for item in logs %}
+        <tr>
+        {% if show_ids %}<td>{{ item.id }}</td>{% endif %}
+        <td><code>{{ item.path }}</code></td>
+        {% if show_details %}
+        <td>{{ item.data}}</td>
+        <td>{{ item.day}}</td>
+        <td>{{ item.hour}}</td>
+        {% endif %}
+        </tr>
+        {% empty %}
+        <tr>
+        <td colspan="2"><em>Nu exista accesari inregistrate.</em></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div>
+{% else %}
+    <p>Nu exista accesari inregistrate.</p>
+{% endif %}
+
+{% endif %}
+
+{% if show_details %}
+    <h1>parametri</h1>
+    <h2>toti parametrii</h2>
+    <p class="descriere">informatii despre parametrii acestei pagini.</p>  
+    <hr>
+    <code>numar de parametri: {{ num_parametri }}
+
+<br>
+
+nume parametri: {{ nume_parametri|join:", " }}</code>
+    {% endif %}
+    <h1 >statistici</h1>
+    <h2>statistici legate de accesarile paginii</h2>
+<p class="descriere">nformatii despre accesarile paginii.</p>
+
+<hr>
+<code>pagina cea mai accesata: "{{ most_common_path }}" cu {{ most_common_count }} accesari
+<br>pagina cea mai putin accesata: "{{ least_common_path }}" cu {{ least_common_count }} accesari
+</code> 
+
+
+<br><br>
+
+
+<p>Numar loguri: {{ logs|length }}</p>
+
+
+
+    {% if errors %}
+
+    <div class="alert-error">
+        {% for e in errors %}<div>{{ e }}</div>{% endfor %}
+    </div>
+    {% endif %}
+{% endblock %}

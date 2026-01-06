@@ -1,0 +1,34 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Produs{% endblock %}
+
+
+{% block content %}
+    <p>{{ produs.nume }}</p>
+    <img class="produs_img" src = "{{ produs.imagine.url }}" >
+    <img src = "{{ produs.brand.logo.url }}" style = "width: 30px; align-text:center;">
+    <a href = "{% url 'detalii_categorie' produs.categorie.nume %}">
+                        <img src = "{{ produs.categorie.imagine_categorie.url }}" 
+                        style = "width: 30px; align-text:center;" alt = 'categorie'>
+                    </a>
+    <p><strong>Pret:</strong> {{ produs.pret }} lei</p>
+    <button id = 'adauga_in_cos'>Adauga</button>
+    <input type="number" id = 'cantitate' name="cantitate" value="1" min="1" max="10">
+    <h3>Disponibilitate:</h3>
+
+    {% for var in variante %}
+        <p>
+            Culoare: {{ var.culoare }} |
+            Mărime: {{ var.marime }} |
+            {% if var.stoc > 0 %}
+                <strong>{{ var.stoc }} bucati</strong>
+            {% else %}
+                <span style="color:red;">Stoc epuizat</span>
+            {% endif %}
+        </p>
+    {% empty %}
+        <p>Nu exista variante pentru acest produs.</p>
+    {% endfor %}
+
+    <p>{{ produs.descriere }}</p>
+{% endblock %}

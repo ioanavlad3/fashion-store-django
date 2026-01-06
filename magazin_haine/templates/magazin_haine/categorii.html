@@ -1,0 +1,29 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Lista categorii{% endblock %}
+
+{% block content %}
+    
+
+    <div class="categorie-container">
+        {% for categorie in page_obj %}
+            <div class="categorie-card">
+                
+                <a href="{% url 'detalii_categorie' categorie.nume %}">{{ categorie.nume }}</a>
+
+                {% if categorie.imagine_categorie %}
+                    <img src="{{ categorie.imagine_categorie.url }}" class = "imag_cat">
+                {% endif %}
+                
+
+            </div>
+        {% empty %}
+            <p>Nu exista categorii.</p>
+        {% endfor %}
+
+
+    </div>
+
+
+{% endblock %}
+

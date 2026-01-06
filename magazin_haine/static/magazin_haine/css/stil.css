@@ -1,0 +1,560 @@
+h1{
+    color:pink;
+    text-align: center;
+}
+
+#img_in_lucru {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: auto;
+}
+
+.img_principala {
+    display: block;
+    margin: 20px auto; /* centrează orizontal */
+    width: 760px;
+    height: auto;
+}
+
+.text{
+    display:block;
+    padding: auto;
+}
+
+
+header {
+    display: flex;
+    align-items: center; /* aliniere verticala perfecta */
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+    /* display: block; */
+}
+/* 
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: block;
+    color: #333;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #aa0489;
+    color: white;
+    /* z-index: 3; */
+/* } */
+
+/* Submeniu */
+/* .has-submenu {
+    position: relative;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    z-index: 10;
+}
+.has-submenu:hover > .submenu {
+    display: block;
+}
+
+.navbar>ul>li>ul.submeniu {       
+    display: none;
+}
+nav>ul>li:hover>ul.submeniu {
+    display: block;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color 0.2s ease;
+}
+.submenu li a:hover {
+    background-color: #aa0489;
+    color: white;
+} */ 
+
+
+nav ul{
+    list-style-type: none;  /* anuleaza sa mai fie ca o lista*/
+    list-style: none;
+}
+nav ul, nav li{
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+}
+nav a{
+    text-decoration: none;      /* sa nu fie subliniat textul */
+    display: block;
+    font-weight: bold;
+    color: black;
+    transition: all 0.3s ease;
+}
+nav{ 
+    width: 100%;
+    height: 50px;
+    background-color:#fff;
+    color: white;
+    position: sticky;
+    top: 0;     /* asa se lipeste de partea de sus*/
+    z-index: 3;     /* ca sa se vada peste elementele din pagina */
+}
+nav>ul.meniu>li>ul.submeniu {       
+    display: none;
+}
+nav>ul.meniu>li:hover>ul.submeniu {
+    display: block;
+}
+ul.meniu {
+    display: flex;      
+ /*   flex-flow:row nowrap;       /* elementele stau pe o linie si nu da overflow */
+    justify-content: space-around;
+}
+ul.meniu>li {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 2px;
+    flex: 1 250px;
+}
+ul.submeniu>li {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background-color: #fff;
+    color: white;
+}
+nav a:hover {
+    background-color: #fc82e3;
+    color: black;
+    transition: background-color 0.2s ease;;
+}
+
+/* Iconițele din dreapta */
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    width: 28px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.icon:hover {
+    transform: scale(1.1);
+}
+
+
+.video1 {
+    width: auto;
+    height: 590px;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+}
+
+.despre1 {
+    display: grid;
+    
+    /* MODIFICARE AICI: 
+       Prima valoare (textul) e mai mare, a doua (imaginea) e mai mică. */
+    grid-template-columns: 65% 35%; 
+    
+    align-items: center; 
+    gap: 30px; 
+    padding: 20px;
+}
+.despre1 img {
+    max-width: 370px;
+    height: auto;
+    display: block; 
+    
+}
+
+.despre2 {
+    display: grid;
+    
+    grid-template-columns: 35% 65%; 
+    
+    align-items: center; 
+    gap: 30px; 
+    padding: 20px;
+}
+.despre2 img {
+    max-width: 350px;
+    height: auto;
+    display: block; 
+    
+}
+
+.produse-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produs-card {
+    width: 60%;
+    max-width: 550px;
+    height: 550px; 
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    text-align: center;
+}
+
+.produs-card:hover{
+    border-color: #333;
+    transition: all ;
+}
+
+/* Imagine mai mare */
+.produs-card img {
+    width: 100%;          /* creste dimensiunea imaginii */
+    max-height: 350px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.produs-card h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.produs-card p {
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+.produs-card a {
+    font-size: 14px;
+}
+
+.detalii-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: flex-start; 
+    
+    gap: 10px; 
+    flex-wrap: wrap; 
+    margin-top: 10px;
+}
+.detalii-container img {
+    width: 40px; 
+    height: 40px;
+}
+
+.subsectiune {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+.cat-icon {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    opacity: 0.9;  
+}
+
+
+.produs_img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.categorie-container {
+    display: block;
+}
+
+.categorie-container img {
+    max-height: 250px;
+    width: auto;
+    display: block;
+    align-items: center;
+}
+
+.categorie-card {
+    display: grid;
+    height: 500px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+.categorie-card img {
+    align-items: center;
+    margin-top: 20%;
+}
+.categorie-card a {
+    text-align: center;
+    margin-top: 30%;
+    text-size-adjust: 28px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    max-width: 420px;
+    margin: 20px auto;
+    font-family: "Inter", sans-serif;
+}
+
+.form-group {
+    max-width: 200px;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all .2s ease;
+    background: #fafafa;
+}
+
+input:focus,
+select:focus {
+    border-color: #000;
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.15);
+}
+#button-categorii {
+    max-width: 100%;
+    max-height: 50px;
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px 0;
+    background: black;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background .2s ease;
+}
+
+
+button[type="submit"]:hover {
+    background: #333;
+}
+
+.error {
+    background: #ffe1e1;
+    border-left: 4px solid #ff4a4a;
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.error p {
+    margin: 0;
+    font-size: 13px;
+    color: #b30000;
+}
+
+small {
+    margin-top: 3px;
+    color: #666;
+}
+
+
+
+.btn-reset {
+    background: #777;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn-reset:hover {
+    background: #555;
+}
+
+
+.account_in {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto ;
+    height: 430px;
+    width: auto;
+}
+
+.login {
+    text-align: center;
+    margin: 10%;
+    border: 3px solid rgb(209, 76, 164);
+    border-radius: 10px;
+    padding: 55px;
+    background-color: rgb(247, 206, 237);
+}
+
+.signin {
+    text-align: center;
+    margin: 10%;
+    border: 3px solid rgb(209, 76, 164);
+    background-color:  rgb(247, 206, 237);
+    border-radius: 10px;
+    padding: 55px;
+}
+
+#adauga_in_cos {
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Stiluri Generale */
+.brand-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Grid-ul de Branduri */
+.brand-grid {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+}
+
+.brand-item {
+    flex: 1 1 150px; 
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(100%); 
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.brand-item:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: translateY(-5px); 
+}
+
+.brand-item span {
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+.colectie-class {
+    height: 450px;
+    display: flex;          
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;   
+    text-align: center;    
+    width: 100%;            
+}
+
+.brand-class {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 450px;
+    display: flex;          
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;   
+    text-align: center;    
+    width: 100%;            
+}

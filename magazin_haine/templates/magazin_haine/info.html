@@ -1,0 +1,32 @@
+<h2>Accesări</h2>
+
+{% if show_count %}
+    <p>Numărul total de accesări: <strong>{{ total_count }}</strong></p>
+
+{% elif show_details %}
+    <p>Detalii despre fiecare accesare:</p>
+    <ul>
+    {% for log in logs %}
+        <li>ID {{ log.id }} — {{ log.data }}</li>
+    {% empty %}
+        <li>Nicio accesare înregistrată.</li>
+    {% endfor %}
+    </ul>
+
+{% else %}
+    <p>Folosește parametrul <code>?accesari=nr</code> sau <code>?accesari=detalii</code> în URL pentru a vedea informațiile.</p>
+{% endif %}
+
+<h2>Parametri</h2>
+
+<p>Număr de parametri primiți: <strong>{{ num_parametri }}</strong></p>
+
+{% if num_parametri > 0 %}
+    <ul>
+    {% for p in nume_parametri %}
+        <li>{{ p }}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>Niciun parametru nu a fost transmis.</p>
+{% endif %}

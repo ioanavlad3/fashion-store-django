@@ -1,0 +1,106 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Categorie{% endblock %}
+
+
+{% block content %}
+    <p>{{ produs.nume }}</p>
+    
+    <p>{{ produs.descriere }}</p>
+
+    <form method="get">
+        {% csrf_token %}
+
+        {% for field in filtre %}
+
+            {% if field.name == "categorie" and produs %}
+                <input type="hidden" name="categorie" value="{{ categorie_selectata.nume }}" readonly>
+            
+            {% else %}
+                <div class="form-group">
+                    <label>{{ field.label }}</label>
+                    {{ field }}
+
+                    {% if field.errors %}
+                        <div class="error">
+                            {% for error in field.errors %}
+                                <p>{{ error }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                    {% if field.help_text %}
+                        <small>{{ field.help_text }}</small>
+                    {% endif %}
+                </div>
+            {% endif %}
+
+        {% endfor %}
+
+        <button type="submit" id = "button-categorii">Submit</button>
+        <button type="button" id="reset-filtre" class="btn-reset">
+            Reset filtre
+        </button>
+    </form>
+
+
+    {% if messages %}
+        {% for message in messages %}
+            <p style="color: red;">{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+
+    
+    <div class="produse-container">
+        {% for produs in page_obj %}
+            <div class="produs-card">
+                <img src="{{ produs.imagine.url }}" alt="poza">
+                <div class = "subsectiune">
+                    <a href="{% url 'detalii' produs.id_produs %}">
+                        {{ produs.nume }}
+                    </a>
+                    <a href = "{% url 'detalii_categorie' produs.categorie.nume %}">
+                        <img src = "{{ produs.categorie.imagine_categorie.url }}" 
+                        style = "width: 30px; align-text:center;" alt = 'categorie'>
+                    </a>
+                </div>
+                <div class = "detalii-container">
+                    <p><strong>Pret:</strong> {{ produs.pret }} lei</p>
+                    
+
+                    <img src="{{ produs.categorie.imagine_categorie.url }}" class="cat-icon"> 
+                    
+                                        
+                    <img src="{{ produs.brand.logo.url }}" alt = 'logo'>
+
+
+                </div>
+            </div>
+        {% empty %}
+            <p>Nu exista produse.</p>
+        {% endfor %}
+
+        </div>
+    
+    <div class="pagination">
+        {% if page_obj.has_previous %}
+            <a href="?page=1"> Prima</a>
+            <a href="?page={{ page_obj.previous_page_number }}"> Anterior</a>
+        {% endif %}
+
+        {% for num in page_obj.paginator.page_range %}
+            {% if page_obj.number == num %}
+                <span class="current">{{ num }}</span>
+            {% else %}
+                <a href="?page={{ num }}">{{ num }}</a>
+            {% endif %}
+        {% endfor %}
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">Urmator </a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">Ultima </a>
+        {% endif %}
+    </div>
+
+
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <body>
+        {% if user %}
+            <h1>Salut {{user.username}}! </h1>
+        {% else %}
+            <h1>Salut anonim! </h1>
+
+        {% endif %}
+
+        {% if titlu %}
+            <h1>{{titlu}}</h1>
+        {% else %}
+            <h1>Eroare 403</h1>
+        {% endif %}
+
+        <p>{{mesaj_personalizat}} </p>
+
+        <p>Ai ajuns pe o pagina 403 de <strong>{{count}}</strong> ori. </p>
+
+        {% if count > n_max %}
+                <p style="color:red;">
+                Atentie! Ai depasit pragul de {{ n_max }} erori 403.
+            </p>
+        {% endif %}
+    </body>
+</html>

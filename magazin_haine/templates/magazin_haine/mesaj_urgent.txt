@@ -1,0 +1,6 @@
+Subiect: ULTIMA zi de reduceri explozive!
+Salut, {{ user.nume }} {{user.prenume}}!
+Mai ai 24 de ore pana se termina reducerea personalizata de {{ procent_reducere }}% la categoria:{{ categorie  }}.
+
+Grabeste-te!
+Oferta expira pe {{ data_expirare }}!

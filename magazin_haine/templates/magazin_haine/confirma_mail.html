@@ -1,0 +1,12 @@
+{% extends "./baza.html" %}
+{% load static %}
+
+{% block title %}Confirma Mail{% endblock %}
+
+{% block content %}
+    <div style="padding:20px;">
+        <h2>Bun venit, {{ user.nume }} {{ user.prenume }}!</h2>
+        <p>Adresa ta de e-mail a fost confirmata cu succes.</p>
+        <a href="{% url 'login' %}">Intoarce-te la login</a>
+    </div>
+{% endblock %}

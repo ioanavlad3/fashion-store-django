@@ -1,0 +1,35 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Lista produse{% endblock %}
+
+{% block content %}
+<h1>Pagina de Profil a Utilizatorului</h1>
+    
+    <p>Datele de mai jos sunt preluate din sesiune.</p>
+
+    {% if profile_data %}
+        <h2>Detalii Cont</h2>
+        <ul>
+            <li>**Nume:** {{ profile_data.nume }}</li>
+            <li>**Preume:** {{ profile_data.prenume }}</li>
+            <li>**Email:** {{ profile_data.email }}</li>
+            <li>**Tip Utilizator:** {{ profile_data.tip_user }}</li>
+            <li>**Data Inregistrarii:** {{ profile_data.data_inregistrare }}</li>
+            <li>**Data nasterii:** {{ profile_data.data_nastere }}</li>
+            <li>**Nr. Comenzi:** {{ profile_data.nr_comenzi }}</li>
+        </ul>
+        
+        <hr>
+
+        {% comment %} <p>
+            <a href="{% url 'schimba_parola' %}">Schimbă Parola</a>
+        </p> {% endcomment %}
+        
+    {% else %}
+        <p>Nu am putut incarca datele de profil.</p>
+    {% endif %}
+
+    <p style="margin-top: 20px;"><a href="{% url 'logout' %}">Deconectare (Logout)</a></p>
+
+
+{% endblock %}

@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}Pagina principala{% endblock %}</title>
+        <link rel = "stylesheet" href = "{% static "magazin_haine/css/stil.css" %}" type = "text/css" />
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="{% static 'magazin_haine/images/logo.png' %}" alt="logo">
+
+            <nav>
+                <ul class = "meniu">
+                    <li><a href="{% url 'principala' %}">Acasa</a></li>
+                    {% if user.is_authenticated %}
+                        {% if perms.magazin_haine.view_log %}
+                            <li><a href="{% url 'log' %}">Log</a></li>
+                        {% endif %}
+
+                        {% if perms.magazin_haine.view_info %}
+                            <li><a href="{% url 'info' %}">Info</a></li>
+                        {% endif %}
+
+                        {% if perms.magazin_haine.add_produs %}
+                            <li><a href="{% url 'adauga_produse' %}">Adauga</a></li>
+                        {% endif %}
+
+                    {% endif %}
+                    <li><a href="{% url 'despre' %}">Despre</a>
+                        <ul class="submeniu">
+                            <li><a href="{% url 'despre' %}">Info</a></li>
+                            <li><a href="{% url 'despre' %}">Tehnologii</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{% url 'lista_produse' %}">Produse</a></li>
+                    <li><a href="{% url 'categorii' %}">Categorii</a>
+                        <ul class = "submeniu">
+                            <li><a href="{% url 'detalii_categorie' 'Tricou' %}">Tricou</a></li>
+                            <li><a href="{% url 'detalii_categorie' 'Pantaloni' %}">Pantaloni</a></li>
+                            <li><a href="{% url 'detalii_categorie' 'Pulover' %}">Pulover</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{% url 'colectii' %}">Colectii</a></li>
+                    <li><a href="{% url 'brands' %}">Branduri</a></li>
+                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                <a href = "{%url 'cont'%}" ><img class="icon" src="{% static 'magazin_haine/images/person.png' %}"> </a>
+                <a href = "{%url 'in_lucru'%}"><img class="icon" src="{% static 'magazin_haine/images/heart.png' %}"> </a>
+                <a href = "{%url 'in_lucru'%}"><img class="icon" src="{% static 'magazin_haine/images/shop.png' %}"></a>
+            </div>
+        </header>
+
+    
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+        <footer>
+            <p>© 2024 Site-ul meu</p>
+            <p>IP utilizator: {{ ip }}  </p> 
+            {%block footer%} {%endblock%}
+        </footer>
+        <script>
+            document.getElementById("reset-filtre").addEventListener("click", function() {
+                if (confirm("Atentie! Veti pierde toate filtrele aplicate. Continuati?")) {
+                    // redirect catre aceeasi pagina, dar fara parametri
+                    window.location.href = window.location.pathname;
+                }
+            });
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Lista produse{% endblock %}
+
+
+{% block content%}
+
+    <form method="get" action="">
+        {% csrf_token %}
+        {% for field in filtre %}
+            <div class="form-group">
+                <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                {{ field }}
+                {% if field.errors %}
+                    <div class="error">
+                        {% for error in field.errors %}
+                            <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+                {% if field.help_text %}
+                    <small>{{ field.help_text }}</small>
+                {% endif %}
+            </div>
+        {% endfor %}
+        <button type="submit">Submit</button>
+        <button type="button" id="reset-filtre" class="btn-reset">
+            Reset filtre
+        </button>
+
+    </form>
+
+
+
+    <div class="produse-container">
+        {% for var in page_obj %}
+            {% with produs=var.produs %}
+            <div class="produs-card">
+
+                {% if var.imagine_varianta %}
+                    <img src="{{ var.imagine_varianta.url }}" width="100">
+                {% elif produs.imagine %}
+                    <img src="{{ produs.imagine.url }}" width="100">
+                {% endif %}
+                <div class = "subsectiune">
+                    <a href="{% url 'detalii' produs.id_produs %}">
+                        {{ produs.nume }}
+                    </a>
+                    <a href = "{% url 'detalii_categorie' produs.categorie.nume %}">
+                        <img src = "{{ produs.categorie.imagine_categorie.url }}" 
+                        style = "width: 30px; align-text:center;" alt = 'categorie'>
+                    </a>
+                </div>
+                
+                <p>Culoare: {{ var.culoare }}</p>
+                <p>Mărime: {{ var.marime }}</p>
+                <p><strong>Preț:</strong> {{ produs.pret }} lei</p>
+                
+
+                {% if var.stoc > 0 %}
+                    <p><strong>{{ var.stoc }} bucati</strong></p>
+                {% else %}
+                    <p class="text-indisponibil">Indisponibil</p>
+                {% endif %}
+            </div>
+            {% endwith %}
+        {%empty%}
+            <p class="text-indisponibil">Indisponibil</p>
+        {% endfor %}
+
+    
+
+    </div>
+
+    <div class="pagination">
+        {% if page_obj.has_previous %}
+            <a href="?page=1"> Prima</a>
+            <a href="?page={{ page_obj.previous_page_number }}"> Anterior</a>
+        {% endif %}
+
+        {% for num in page_obj.paginator.page_range %}
+            {% if page_obj.number == num %}
+                <span class="current">{{ num }}</span>
+            {% else %}
+                <a href="?page={{ num }}">{{ num }}</a>
+            {% endif %}
+        {% endfor %}
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">Urmator </a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">Ultima </a>
+        {% endif %}
+    </div>
+
+{% endblock %}
+

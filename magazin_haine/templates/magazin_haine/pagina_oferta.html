@@ -1,0 +1,22 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Oferta{% endblock %}
+
+
+{% block content %}
+
+    <form method="post" action="{% url 'pagina_oferta' %}">
+        {% csrf_token %}
+        <button id = 'oferta-banner' type="submit" style="background: yellow; padding: 10px; display:none;">
+            OFERTA REDUCERE 50%
+        </button>
+    </form>
+
+    <script>
+        if(Math.random() < 0.3){
+            const banner = document.getElementById('oferta-banner');
+            banner.style.display = 'block';
+        }
+    </script>
+
+{% endblock %}

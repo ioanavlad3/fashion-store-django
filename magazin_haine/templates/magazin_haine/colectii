@@ -1,0 +1,39 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Despre{% endblock %}
+
+{% block content %}    
+
+    <section>
+        <div class = "despre1">
+            <div id = "textdespre1">
+                    <h3>Despre proiect:</h3>
+                <p>Site-ul de haine a fost creat ca un proiect individual, avand scopul de a simula 
+                functionalitatea de baza a unui magazin online. Utilizatorii pot explora diverse articole 
+                vestimentare, pot vizualiza detalii despre produse si pot naviga prin diferite categorii și 
+                colectii. Proiectul pune accent pe organizarea datelor si pe relatiile dintre entitati, 
+                oferind o baza solida pentru un sistem complet de comert electronic. </p>
+            </div>
+            <img id = "despre1" src = "{% static "magazin_haine/images/despre1.jpg" %} " alt = "despre1">
+        </div>
+    </section>
+
+    <section>
+        <div class = "despre2">
+            <img id = "despre2" src = "{% static "magazin_haine/images/despre2.jpg" %} " alt = "despre2">
+            <div id = "textdespre2">
+                <h3>Tehnologii utilizate: </h3>
+                <p>Platforma a fost dezvoltata cu ajutorul framework-ului Django (Python) pentru partea de 
+                    backend si a bazelor de date, folosind HTML și CSS pentru interfața web. 
+                    Datele sunt gestionate intr-o baza de date PostgreSQL, iar proiectul a fost 
+                    conceput cu scop educational, pentru a demonstra modul de creare a unui site dinamic si 
+                    structurat.
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
+
+{% block footer %}
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Oferta{% endblock %}
+
+
+{% block content %}
+
+    <div id = 'oferta-banner' style = 'display: none; cursor:pointer; 
+    background-color: red; padding: 10px; text-align:center;' >Oferta BOMBA 50% REDUCERE</div>
+
+    <script>
+        if(Math.random() < 0.3){
+            const banner = document.getElementById('oferta-banner');
+            banner.style.display = 'block';
+            banner.addEventListener('click', function(){
+                fetch("{% url 'adauga_permisiune_oferta' %}", {method: 'POST', headers: {'X-CSRFToken': '{{ csrf_token }}'}})
+                .then(response => {
+                    if (response.ok) {
+                        window.location.href = "{% url 'pagina_oferta' %}";
+                    }
+                });
+            });
+        }
+    </script>
+
+{% endblock %}

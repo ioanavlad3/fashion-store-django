@@ -1,0 +1,20 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Cont{% endblock %}
+
+{% block content %}
+
+<div class = 'account_in'>
+    <div class = 'login'>
+        <h2>Login</h2>
+        <a href = "{% url 'login' %}">Login</a>
+    </div>
+    <div class = 'signin'>
+        <h2>Singin</h2>
+        <a href = "{% url 'inregistrare' %}">Singin</a>
+    </div>
+</div>
+
+
+
+{% endblock %}

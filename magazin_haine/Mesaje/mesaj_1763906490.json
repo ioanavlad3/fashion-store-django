@@ -1,0 +1,14 @@
+{
+    "nume": "Vlad",
+    "prenume": "Ioana",
+    "cnp": "1041103555555",
+    "email": "ioana@domeniu.com",
+    "data_nastere": "2004-11-03",
+    "tip_mesaj": "reclamatie",
+    "subiect": "Cewc",
+    "mesaj": "freweev frwg fefugvb \r\nIoana",
+    "min_zile": 5,
+    "ip": "127.0.0.1",
+    "varsta": "21 ani si 0 luni",
+    "urgent": false
+}

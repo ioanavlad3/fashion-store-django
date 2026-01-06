@@ -1,0 +1,31 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Pagina principala{% endblock %}
+
+{% block content %}
+    <section>
+        <img class = "img_principala" src = "{% static "magazin_haine/images/poza1.jpg" %}" alt = "ceva">
+    </section>
+    <section>
+        <video class = "video1" autoplay loop muted>
+            <source src = "{% static "magazin_haine/video/video12.mp4" %}" type="video/mp4" alt = "video">
+        </video>
+    </section>
+    <section class="brand-section">
+        <div class="container">
+            {% comment %} <h2 class="section-title">Our Brands</h2> {% endcomment %}
+            <div class="brand-grid">
+                <div class="brand-item"><span>H&M</span></div>
+                <div class="brand-item"><span>ZARA</span></div>
+                <div class="brand-item"><span>COS</span></div>
+                <div class="brand-item"><span>Stradivarius</span></div>
+                <div class="brand-item"><span>Mango</span></div>
+                <div class="brand-item"><span>Lacoste</span></div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block footer %}
+
+{% endblock %}

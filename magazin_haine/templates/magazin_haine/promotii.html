@@ -1,0 +1,30 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Promotii formular{% endblock %}
+
+{% block content %}
+
+<form method = 'POST' >
+    {% csrf_token %}
+    {% for field in form %}
+        <div class="form-group">
+            <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+            {{ field }}
+            {% if field.errors %}
+                <div class="error">
+                    {% for error in field.errors %}
+                        <p>{{ error }}</p>
+                    {% endfor %}
+                </div>
+            {% endif %}
+            {% if field.help_text %}
+                <small>{{ field.help_text }}</small>
+            {% endif %}
+        </div>
+    {% endfor %}
+
+    <button type="submit">Submit</button>
+</form>
+
+
+{% endblock %}

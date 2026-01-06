@@ -1,0 +1,4 @@
+Subiect: Promotie Pulover
+Salut, {{ user.nume }} {{ user.prenume }}!
+De azi, {{ data_inceput }} ai o promotie incredibila de {{ procent_reducere }}% la categoria: {{ categorie }}.
+Grabeste-te, promotia se incheie pe {{ data_expirare }}.

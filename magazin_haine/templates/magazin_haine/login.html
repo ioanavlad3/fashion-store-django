@@ -1,0 +1,23 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+                    {{ message }} 
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.non_field_errors }}   <!-- Afișează erorile de autentificare -->
+        {{ form.as_p }}
+        <button type="submit">Login</button>
+    </form>
+    <p>Nu ai cont? <a href="{% url 'inregistrare' %}">Inregistreaza-te</a></p>
+
+{% endblock %}
