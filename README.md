@@ -35,5 +35,5 @@ The project follows standard Django architecture and includes authentication, pr
 
 ```text
 manage.py
-magazin/              # Proiect principal Django (settings, urls, wsgi)
-magazin_haine/        # Aplicație (models, views, templates)
+magazin/              # main Django project (settings, urls, wsgi)
+magazin_haine/        # App (models, views, templates)
