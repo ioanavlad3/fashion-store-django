@@ -21,3 +21,7 @@ staticfiles/
 # Backups
 *.sql
 *.bat
+
+
+.vscode/
+tree.txt
