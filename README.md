@@ -19,6 +19,33 @@ The project follows standard Django architecture and includes authentication, pr
 <li>Order handling system</li>
 </ul>
 
+<h2>Main Models</h2>
+<ol>
+  <li>Product</li>
+    <ul>
+      <li>Id, Name, Price</li>
+      <li>Relationship with Category, Brand, Material</li>
+    </ul>
+  <li>Variant_Product</li>
+    <ul>
+      <li>Id, Color, Size</li>
+      <li>Relationship with Product</li>
+    </ul>
+  <li>Category</li>
+    <ul>
+      <li>Id, Name</li>
+      <li>Relationship with Product</li>
+    </ul>
+  <li>User</li>
+    <ul>
+      <li>Id, Username, email</li>
+      <li>Roles: Admin, User</li>
+    </ul>
+  <li>Cart</li>
+    <ul>
+      <li>Handles each user's shopping cart</li>
+    </ul>
+</ol>
 
 <h2>Technologies Used</h2>
 <ul>
