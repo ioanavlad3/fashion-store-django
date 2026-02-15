@@ -1,0 +1,118 @@
+{% extends "./baza.html" %}
+{% load static %}
+{% block title %}Cos virtual{% endblock %}
+
+{% block content %}
+
+<h2>Cosul meu</h2>
+
+<div id="cos-container"></div>
+
+<div style = "align-text: center; display:inline; margin:10px;">
+
+    <p><strong>Total: </strong><span id="total">0</span> lei</p>
+    <button class = "cumpara" onclick="cumpara()">
+                    Cumpara
+    </button>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+    let cos = JSON.parse(localStorage.getItem("cos")) || [];
+    let container = document.getElementById("cos-container");
+    let total = 0;
+
+    if (cos.length === 0) {
+        container.innerHTML = "<p>Coșul este gol.</p>";
+        return;
+    }
+
+    cos.forEach(function(produs, index) {
+
+        total += produs.pret * produs.cantitate;
+        container.innerHTML += `
+    <div class="cos-item">
+        <img src="${produs.imagine}" class="cos-img" >
+
+        <div class="cos-details">
+            <h3>${produs.nume}</h3>
+            <p>Pret: ${produs.pret} lei</p>
+
+            <div class="cantitate-control">
+                <button onclick="modificaCantitate(${index}, -1)">-</button>
+                <span>${produs.cantitate}</span>
+                <button onclick="modificaCantitate(${index}, 1)">+</button>
+            </div>
+
+            <button class="sterge-btn" onclick="stergeProdus(${index})">
+                Sterge
+            </button>
+
+        </div>
+    </div>
+`;
+
+    });
+
+    document.getElementById("total").innerText = total;
+
+});
+
+function modificaCantitate(index, schimbare) {
+    let cos = JSON.parse(localStorage.getItem("cos")) || [];
+
+    cos[index].cantitate += schimbare;
+
+    if (cos[index].cantitate <= 0) {
+        cos.splice(index, 1);
+    }
+
+    localStorage.setItem("cos", JSON.stringify(cos));
+    location.reload();
+}
+
+function stergeProdus(index) {
+    let cos = JSON.parse(localStorage.getItem("cos")) || [];
+    cos.splice(index, 1);
+    localStorage.setItem("cos", JSON.stringify(cos));
+    location.reload();
+}
+
+
+function cumpara() {
+    let cos = JSON.parse(localStorage.getItem("cos")) || [];
+    console.log("Cos trimis la server:", cos);
+    if (cos.length === 0) {
+        alert("Coșul este gol!");
+        return;
+    }
+    
+
+    fetch("{% url 'comanda' %}", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": "{{ csrf_token }}"
+        },
+        body: JSON.stringify({cos: cos})
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === "ok") {
+            localStorage.clear();
+            alert("Comanda a fost plasata cu succes!");
+            location.reload();  // acum reload după ce comanda e salvată
+        } else if (data.status === "no_user") {
+            alert("Trebuie să fii logat pentru a plasa comanda!");
+        } else {
+            alert("A apărut o eroare. Încearcă din nou.");
+        }
+    });
+
+}
+
+</script>
+
+{% endblock %}

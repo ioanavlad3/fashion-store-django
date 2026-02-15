@@ -4,18 +4,18 @@
 
 
 {% block content %}
-    <p>{{ produs.nume }}</p>
-    <img class="produs_img" src = "{{ produs.imagine.url }}" >
-    <img src = "{{ produs.brand.logo.url }}" style = "width: 30px; align-text:center;">
-    <a href = "{% url 'detalii_categorie' produs.categorie.nume %}">
-                        <img src = "{{ produs.categorie.imagine_categorie.url }}" 
+    <p>{{ var_produs.produs.nume }}</p>
+    <img class="produs_img" src = "{{ var_produs.imagine_varianta.url }}" >
+    <img src = "{{ var_produs.produs.brand.logo.url }}" style = "width: 30px; align-text:center;">
+    <a href = "{% url 'detalii_categorie' var_produs.produs.categorie.nume %}">
+                        <img src = "{{ var_produs.produs.categorie.imagine_categorie.url }}" 
                         style = "width: 30px; align-text:center;" alt = 'categorie'>
                     </a>
     <p><strong>Pret:</strong> {{ produs.pret }} lei</p>
-    <button id = 'adauga_in_cos'>Adauga</button>
-    <input type="number" id = 'cantitate' name="cantitate" value="1" min="1" max="10">
-    <h3>Disponibilitate:</h3>
-
+    <button id = 'adauga_in_cos' onclick="adaugaInCos()">Adauga</button>
+    <input type="number" id = 'cantitate' name="cantitate" value="1" min="1" max={{maxim}}>
+    {% comment %} <h3>Disponibilitate:</h3> {% endcomment %}
+{% comment %} 
     {% for var in variante %}
         <p>
             Culoare: {{ var.culoare }} |
@@ -28,7 +28,37 @@
         </p>
     {% empty %}
         <p>Nu exista variante pentru acest produs.</p>
-    {% endfor %}
+    {% endfor %} {% endcomment %}
 
-    <p>{{ produs.descriere }}</p>
+    <p>{{ var_produs.produs.descriere }}</p>
+
+
+    <script>
+        function adaugaInCos() {
+
+            const produs = {
+                id: "{{ var_produs.id }}",
+                nume: "{{ var_produs.produs.nume }}",
+                pret: "{{ var_produs.produs.pret }}",
+                imagine: "{{ var_produs.imagine_varianta.url }}",
+                cantitate: parseInt(document.getElementById("cantitate").value)
+            };
+
+            let cos = JSON.parse(localStorage.getItem("cos")) || [];
+
+            // verificam daca produsul exista deja
+            let produsExistent = cos.find(item => item.id === produs.id);
+
+            if (produsExistent) {
+                produsExistent.cantitate += produs.cantitate;
+            } else {
+                cos.push(produs);
+            }
+
+            localStorage.setItem("cos", JSON.stringify(cos));
+
+            alert("Produs adaugat in cos!");
+        }
+    </script>
+
 {% endblock %}

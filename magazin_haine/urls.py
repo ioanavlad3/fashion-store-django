@@ -36,7 +36,8 @@ urlpatterns = [
     path('colectii/', views.colectii, name = 'colectii'),
     path('brands/', views.brands, name = 'brands'),
     # path("/lista_produse", views.lista_produse, name = "lista_produse"),
-    path("produs/<uuid:id_produs>/", views.detalii_produs, name = "detalii"),
+    # path("produs/<uuid:id_produs>/", views.detalii_produs, name = "detalii"),
+    path("produs/<uuid:id_varianta>/", views.detalii_produs, name = "detalii"),
     path("categorii/", views.lista_categorii, name = "categorii"),
     path("categorii/<str:nume_categorie>/", views.detalii_categorie, name = "detalii_categorie"),
     path("lista_produse/", views.produs_view, name = "lista_produse"),
@@ -54,6 +55,9 @@ urlpatterns = [
     path('sitemap.xml',
         sitemap, {'sitemaps': sitemaps},
         name='django.contrib.sitemaps.views.sitemap'),
+    
+    path('cos/', views.cos_virtual, name = 'cos'),
+    path('comanda/', views.comanda, name = 'comanda'),
 ]
 
 handler404 = 'magazin_haine.views.error_404_view'

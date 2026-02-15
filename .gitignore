@@ -1,7 +1,23 @@
+# Virtual environment
 venv/
-.venv/
+env/
+
+# Python
 __pycache__/
 *.pyc
+
+# Django
 db.sqlite3
-.DS_Store
-.env
+MEDIA/
+media/
+staticfiles/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+
+# Backups
+*.sql
+*.bat

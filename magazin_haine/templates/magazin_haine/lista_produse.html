@@ -43,7 +43,10 @@
                     <img src="{{ produs.imagine.url }}" width="100">
                 {% endif %}
                 <div class = "subsectiune">
-                    <a href="{% url 'detalii' produs.id_produs %}">
+                    {% comment %} <a href="{% url 'detalii' produs.id_produs %}">
+                        {{ produs.nume }}
+                    </a> {% endcomment %}
+                    <a href="{% url 'detalii' var.id_varianta %}">
                         {{ produs.nume }}
                     </a>
                     <a href = "{% url 'detalii_categorie' produs.categorie.nume %}">

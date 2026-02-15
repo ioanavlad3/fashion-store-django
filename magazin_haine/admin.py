@@ -75,6 +75,10 @@ class CustomUserAdmin(admin.ModelAdmin):
     list_display = ('id_user', 'nume', 'prenume', 'data_nastere', 'tip_user', 'nr_comenzi', 'tara', 'judet', 
                     'email', 'cod', 'telefon')
 
+
+class ComandaAdmin(admin.ModelAdmin):
+    list_display = ('id_comanda', 'user', 'data', 'pret')
+
 admin.site.register(Locatie, LocatieAdmin)
 admin.site.register(Categorie, CategorieAdmin)
 admin.site.register(Brand, BrandAdmin)
@@ -83,7 +87,7 @@ admin.site.register(Produs, ProdusAdmin)
 admin.site.register(VariantaProdus, VariantaProdusAdmin)
 admin.site.register(Colectie, ColectieAdmin)
 admin.site.register(CustomUser, CustomUserAdmin)
-
+admin.site.register(Comanda, ComandaAdmin)
 
 admin.site.site_title = "Administrare Magazin"
 admin.site.site_header = "Aurora Boutique - Panou Administrare"

@@ -1,0 +1,3342 @@
+.
+├── MEDIA
+│   ├── brands
+│   │   ├── hm.png
+│   │   └── zara.png
+│   ├── categories
+│   │   ├── pants_icon.png
+│   │   ├── pulover_icon.png
+│   │   ├── tshirt2.png
+│   │   └── tshirt2_VoxS5oo.png
+│   ├── images
+│   │   ├── tricou2_alb.jpg
+│   │   └── tricou2_roz.jpg
+│   ├── pants_icon.png
+│   └── produse
+│       ├── blugi1_albastru.jpg
+│       ├── blugi1_albastru_2kUHR6z.jpg
+│       ├── blugi1_galben.jpg
+│       ├── blugi2_alb.jpg
+│       ├── blugi2_alb_kIDjhdN.jpg
+│       ├── blugi2_negru.jpg
+│       ├── pantaloni1_negru.jpg
+│       ├── pantaloni1_negru_mY70W7D.jpg
+│       ├── pulover1.jpg
+│       ├── pulover1_roz.jpg
+│       ├── pulover1_tIbsOJJ.jpg
+│       ├── pulover2.jpg
+│       ├── pulover2_EAEAgN9.jpg
+│       ├── top_satinat.jpg
+│       ├── top_satinat2.jpg
+│       ├── top_satinat2_ZBtFGOh.jpg
+│       ├── top_satinat2_saYVLVt.jpg
+│       ├── top_satinat_F8Uhw7Z.jpg
+│       ├── top_satinat_stFfnBR.jpg
+│       ├── tricou2_alb.jpg
+│       ├── tricou3_alb.jpg
+│       ├── tricou3_alb_WqYHu40.jpg
+│       ├── tricou3_albastru.jpg
+│       ├── tricou3_galben.jpg
+│       ├── tricou_text.jpg
+│       └── tricou_text_S3kSDZE.jpg
+├── backup.bat
+├── backup.sql
+├── critical.log
+├── db.sqlite3
+├── debug.log
+├── error.log
+├── info.log
+├── magazin
+│   ├── MEDIA
+│   │   ├── brands
+│   │   ├── categories
+│   │   └── produse
+│   │       ├── 06050019620-p.jpg
+│   │       ├── blugi1_albastru.jpg
+│   │       ├── blugi1_galben.jpg
+│   │       ├── blugi2_alb.jpg
+│   │       ├── blugi2_negru.jpg
+│   │       ├── pantaloni1_negru.jpg
+│   │       ├── pulover1.jpg
+│   │       ├── pulover1_roz.jpg
+│   │       ├── tricou2_alb.jpg
+│   │       ├── tricou2_roz.jpg
+│   │       ├── tricou3_alb.jpg
+│   │       ├── tricou3_albastru.jpg
+│   │       ├── tricou3_galben.jpg
+│   │       ├── tricou_alb.jpg
+│   │       ├── tricou_albastru.jpg
+│   │       ├── tricou_negru.jpg
+│   │       └── tricou_text.jpg
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-313.pyc
+│   │   ├── settings.cpython-313.pyc
+│   │   ├── urls.cpython-313.pyc
+│   │   └── wsgi.cpython-313.pyc
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── magazin_haine
+│   ├── Mesaje
+│   │   ├── mesaj_1763906292.json
+│   │   ├── mesaj_1763906395.json
+│   │   ├── mesaj_1763906407.json
+│   │   ├── mesaj_1763906461.json
+│   │   └── mesaj_1763906490.json
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-313.pyc
+│   │   ├── admin.cpython-313.pyc
+│   │   ├── apps.cpython-313.pyc
+│   │   ├── forms.cpython-313.pyc
+│   │   ├── middleware.cpython-313.pyc
+│   │   ├── models.cpython-313.pyc
+│   │   ├── sitemaps.cpython-313.pyc
+│   │   ├── tasks.cpython-313.pyc
+│   │   ├── urls.cpython-313.pyc
+│   │   └── views.cpython-313.pyc
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── middleware.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_alter_vizualizare_options.py
+│   │   ├── 0003_alter_customuser_options.py
+│   │   ├── 0004_customuser_blocat.py
+│   │   ├── 0005_alter_brand_logo_alter_categorie_imagine_categorie_and_more.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── 0001_initial.cpython-313.pyc
+│   │       ├── 0002_alter_vizualizare_options.cpython-313.pyc
+│   │       ├── 0002_brand_categorie_material_produs_colectie_and_more.cpython-313.pyc
+│   │       ├── 0003_alter_customuser_options.cpython-313.pyc
+│   │       ├── 0003_contact_alter_produs_data_adaugare_and_more.cpython-313.pyc
+│   │       ├── 0004_customuser_blocat.cpython-313.pyc
+│   │       ├── 0004_customuser_comanda.cpython-313.pyc
+│   │       ├── 0005_alter_brand_logo_alter_categorie_imagine_categorie_and_more.cpython-313.pyc
+│   │       ├── 0005_customuser_cod_customuser_email_confirmat.cpython-313.pyc
+│   │       ├── 0006_alter_customuser_cod.cpython-313.pyc
+│   │       ├── 0007_alter_customuser_email_promotie_vizualizare.cpython-313.pyc
+│   │       ├── 0008_customuser_prenume_alter_customuser_email_and_more.cpython-313.pyc
+│   │       └── __init__.cpython-313.pyc
+│   ├── models.py
+│   ├── ruleaza_taskuri.py
+│   ├── sitemaps.py
+│   ├── static
+│   │   └── magazin_haine
+│   │       ├── css
+│   │       │   └── stil.css
+│   │       ├── images
+│   │       │   ├── despre1.jpg
+│   │       │   ├── despre2.jpg
+│   │       │   ├── heart.png
+│   │       │   ├── hm.png
+│   │       │   ├── logo.png
+│   │       │   ├── pants_icon.png
+│   │       │   ├── person.png
+│   │       │   ├── poza1.jpg
+│   │       │   ├── poza2.jpg
+│   │       │   ├── poza3.jpg
+│   │       │   ├── pulover_icon.png
+│   │       │   ├── shop.png
+│   │       │   ├── tshirt.jpg
+│   │       │   ├── tshirt2.png
+│   │       │   ├── video1.html
+│   │       │   ├── video1_files
+│   │       │   │   ├── 0oX9baFjh6o.js.descărcare
+│   │       │   │   ├── 2D7z7ilBhwT.js.descărcare
+│   │       │   │   ├── 5auWPyR5Glrm4LZIOCaXCR.css
+│   │       │   │   ├── 74QGjbCAkVDgLezO521GVFEIrg9NUUd34J4k702phFg-rQhs43kJ_fxRmjLj6aJDq45dYO4soUymZUhJI1DsCQ8H5t5ZlN_XunD1igUyRSR1kduFGupMkQ-nKxgKblAd3PPf_AqiDkUu5Vm.js.descărcare
+│   │       │   │   ├── 8MERwzPLbMF.js.descărcare
+│   │       │   │   ├── AAEUCRn2EUe.js.descărcare
+│   │       │   │   ├── F3uE04s3sKG.js.descărcare
+│   │       │   │   ├── I9z-87SfNkh.js.descărcare
+│   │       │   │   ├── IxiKCC-Jqze.js.descărcare
+│   │       │   │   ├── KjzuX_uR1RW.js.descărcare
+│   │       │   │   ├── LQYfgSSFYxz.js.descărcare
+│   │       │   │   ├── M74P33zvtBI.js.descărcare
+│   │       │   │   ├── RlYD193ncNR.js.descărcare
+│   │       │   │   ├── TpNF-c1JslUwwVif2VfLAVBsWF7XCDYdUpsVEQiz2ugnee5ZekqaaIUS3342fHAJSg_brpVQmqefs5PX0y8jExDaTx0XxQqzly-z2l2zOKLTzqcjHxdie58oJ-aRR-UR7nE8adjGrpVp_6UnIPZb.descărcare
+│   │       │   │   ├── WB8U_LZnKdY.js.descărcare
+│   │       │   │   ├── X3VLLMTdZ9f.js.descărcare
+│   │       │   │   ├── Ykduwckmn7j.js.descărcare
+│   │       │   │   ├── _6mk9xxsgLu.js.descărcare
+│   │       │   │   ├── _WxPYKNWneH.js.descărcare
+│   │       │   │   ├── aZcl7LHPG3azjkzngXNpSEYkue5Rf_ZsXQhS9F9hkBvCcmcgfZ2BrznBWj335tmwRoiwOcnczgy2aQ4tmulgmkqkC8a-wYe__-3U77aB06GJyF5kGztt1a6vTTLUAu4OSySBgTUjyUHOCGVbZtsE.descărcare
+│   │       │   │   ├── blLg4NUfL-u.js.descărcare
+│   │       │   │   ├── c3B6vULhnXe.js.descărcare
+│   │       │   │   ├── cFe_XAyB9ME.js.descărcare
+│   │       │   │   ├── e7SMDhQVdt5.js.descărcare
+│   │       │   │   ├── file(1).enc
+│   │       │   │   ├── file(10).enc
+│   │       │   │   ├── file(2).enc
+│   │       │   │   ├── file(3).enc
+│   │       │   │   ├── file(4).enc
+│   │       │   │   ├── file(5).enc
+│   │       │   │   ├── file(6).enc
+│   │       │   │   ├── file(7).enc
+│   │       │   │   ├── file(8).enc
+│   │       │   │   ├── file(9).enc
+│   │       │   │   ├── file.enc
+│   │       │   │   ├── iSBIQEZKftZ.js.descărcare
+│   │       │   │   ├── jWMOETZLrlR.js.descărcare
+│   │       │   │   ├── kmQmCzyoIltnUgP8C7ooI65sITnpGLOVK3HkF_cPZXgu.css
+│   │       │   │   ├── pNS92WzhTbx.js.descărcare
+│   │       │   │   ├── qty4oKQNxrX.js.descărcare
+│   │       │   │   ├── s5j27TNwWDd.js.descărcare
+│   │       │   │   └── wl_SMceNLoP.js.descărcare
+│   │       │   └── zara.png
+│   │       └── video
+│   │           ├── video11.mp4
+│   │           └── video12.mp4
+│   ├── tasks.py
+│   ├── templates
+│   │   └── magazin_haine
+│   │       ├── 403.html
+│   │       ├── adauga_produse.html
+│   │       ├── backup2.sql
+│   │       ├── baza.html
+│   │       ├── branduri.html
+│   │       ├── categorii.html
+│   │       ├── colectii
+│   │       ├── colectii.html
+│   │       ├── confirma_mail.html
+│   │       ├── cont.html
+│   │       ├── contact.html
+│   │       ├── cos.html
+│   │       ├── despre.html
+│   │       ├── detalii_categorie.html
+│   │       ├── detalii_produs.html
+│   │       ├── exemplu.html
+│   │       ├── factura.html
+│   │       ├── in_lucru.html
+│   │       ├── info.html
+│   │       ├── inregistrare.html
+│   │       ├── lista_produse.html
+│   │       ├── locatie.html
+│   │       ├── log.html
+│   │       ├── login.html
+│   │       ├── mesaj_inceput.txt
+│   │       ├── mesaj_urgent.txt
+│   │       ├── oferta.html
+│   │       ├── pagina_oferta.html
+│   │       ├── principal.html
+│   │       ├── profil.html
+│   │       ├── promotie_pantaloni.txt
+│   │       ├── promotie_pulover.txt
+│   │       ├── promotie_tricou.txt
+│   │       ├── promotii.html
+│   │       ├── simplu.html
+│   │       └── template_email.html
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── manage.py
+├── ruleaza_taskuri.py
+├── tree.txt
+├── venv
+│   ├── Scripts
+│   │   ├── Activate.ps1
+│   │   ├── activate
+│   │   ├── activate.bat
+│   │   ├── activate.fish
+│   │   ├── deactivate.bat
+│   │   ├── django-admin.exe
+│   │   ├── fonttools.exe
+│   │   ├── pip.exe
+│   │   ├── pip3.13.exe
+│   │   ├── pip3.exe
+│   │   ├── pyftmerge.exe
+│   │   ├── pyftsubset.exe
+│   │   ├── python.exe
+│   │   ├── pythonw.exe
+│   │   ├── sqlformat.exe
+│   │   ├── ttx.exe
+│   │   └── weasyprint.exe
+│   ├── bin
+│   │   ├── Activate.ps1
+│   │   ├── activate
+│   │   ├── activate.csh
+│   │   ├── activate.fish
+│   │   ├── python -> python3
+│   │   ├── python3 -> /usr/bin/python3
+│   │   └── python3.12 -> python3
+│   ├── include
+│   │   └── python3.12
+│   ├── lib
+│   │   ├── python3.12
+│   │   │   └── site-packages
+│   │   │       ├── pip
+│   │   │       │   ├── __init__.py
+│   │   │       │   ├── __main__.py
+│   │   │       │   ├── __pip-runner__.py
+│   │   │       │   ├── _internal
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── build_env.py
+│   │   │       │   │   ├── cache.py
+│   │   │       │   │   ├── cli
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── autocompletion.py
+│   │   │       │   │   │   ├── base_command.py
+│   │   │       │   │   │   ├── cmdoptions.py
+│   │   │       │   │   │   ├── command_context.py
+│   │   │       │   │   │   ├── main.py
+│   │   │       │   │   │   ├── main_parser.py
+│   │   │       │   │   │   ├── parser.py
+│   │   │       │   │   │   ├── progress_bars.py
+│   │   │       │   │   │   ├── req_command.py
+│   │   │       │   │   │   ├── spinners.py
+│   │   │       │   │   │   └── status_codes.py
+│   │   │       │   │   ├── commands
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── cache.py
+│   │   │       │   │   │   ├── check.py
+│   │   │       │   │   │   ├── completion.py
+│   │   │       │   │   │   ├── configuration.py
+│   │   │       │   │   │   ├── debug.py
+│   │   │       │   │   │   ├── download.py
+│   │   │       │   │   │   ├── freeze.py
+│   │   │       │   │   │   ├── hash.py
+│   │   │       │   │   │   ├── help.py
+│   │   │       │   │   │   ├── index.py
+│   │   │       │   │   │   ├── inspect.py
+│   │   │       │   │   │   ├── install.py
+│   │   │       │   │   │   ├── list.py
+│   │   │       │   │   │   ├── search.py
+│   │   │       │   │   │   ├── show.py
+│   │   │       │   │   │   ├── uninstall.py
+│   │   │       │   │   │   └── wheel.py
+│   │   │       │   │   ├── configuration.py
+│   │   │       │   │   ├── distributions
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── base.py
+│   │   │       │   │   │   ├── installed.py
+│   │   │       │   │   │   ├── sdist.py
+│   │   │       │   │   │   └── wheel.py
+│   │   │       │   │   ├── exceptions.py
+│   │   │       │   │   ├── index
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── collector.py
+│   │   │       │   │   │   ├── package_finder.py
+│   │   │       │   │   │   └── sources.py
+│   │   │       │   │   ├── locations
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── _distutils.py
+│   │   │       │   │   │   ├── _sysconfig.py
+│   │   │       │   │   │   └── base.py
+│   │   │       │   │   ├── main.py
+│   │   │       │   │   ├── metadata
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── _json.py
+│   │   │       │   │   │   ├── base.py
+│   │   │       │   │   │   ├── importlib
+│   │   │       │   │   │   │   ├── __init__.py
+│   │   │       │   │   │   │   ├── _compat.py
+│   │   │       │   │   │   │   ├── _dists.py
+│   │   │       │   │   │   │   └── _envs.py
+│   │   │       │   │   │   └── pkg_resources.py
+│   │   │       │   │   ├── models
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── candidate.py
+│   │   │       │   │   │   ├── direct_url.py
+│   │   │       │   │   │   ├── format_control.py
+│   │   │       │   │   │   ├── index.py
+│   │   │       │   │   │   ├── installation_report.py
+│   │   │       │   │   │   ├── link.py
+│   │   │       │   │   │   ├── scheme.py
+│   │   │       │   │   │   ├── search_scope.py
+│   │   │       │   │   │   ├── selection_prefs.py
+│   │   │       │   │   │   ├── target_python.py
+│   │   │       │   │   │   └── wheel.py
+│   │   │       │   │   ├── network
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── auth.py
+│   │   │       │   │   │   ├── cache.py
+│   │   │       │   │   │   ├── download.py
+│   │   │       │   │   │   ├── lazy_wheel.py
+│   │   │       │   │   │   ├── session.py
+│   │   │       │   │   │   ├── utils.py
+│   │   │       │   │   │   └── xmlrpc.py
+│   │   │       │   │   ├── operations
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── build
+│   │   │       │   │   │   │   ├── __init__.py
+│   │   │       │   │   │   │   ├── build_tracker.py
+│   │   │       │   │   │   │   ├── metadata.py
+│   │   │       │   │   │   │   ├── metadata_editable.py
+│   │   │       │   │   │   │   ├── metadata_legacy.py
+│   │   │       │   │   │   │   ├── wheel.py
+│   │   │       │   │   │   │   ├── wheel_editable.py
+│   │   │       │   │   │   │   └── wheel_legacy.py
+│   │   │       │   │   │   ├── check.py
+│   │   │       │   │   │   ├── freeze.py
+│   │   │       │   │   │   ├── install
+│   │   │       │   │   │   │   ├── __init__.py
+│   │   │       │   │   │   │   ├── editable_legacy.py
+│   │   │       │   │   │   │   └── wheel.py
+│   │   │       │   │   │   └── prepare.py
+│   │   │       │   │   ├── pyproject.py
+│   │   │       │   │   ├── req
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── constructors.py
+│   │   │       │   │   │   ├── req_file.py
+│   │   │       │   │   │   ├── req_install.py
+│   │   │       │   │   │   ├── req_set.py
+│   │   │       │   │   │   └── req_uninstall.py
+│   │   │       │   │   ├── resolution
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── base.py
+│   │   │       │   │   │   ├── legacy
+│   │   │       │   │   │   │   ├── __init__.py
+│   │   │       │   │   │   │   └── resolver.py
+│   │   │       │   │   │   └── resolvelib
+│   │   │       │   │   │       ├── __init__.py
+│   │   │       │   │   │       ├── base.py
+│   │   │       │   │   │       ├── candidates.py
+│   │   │       │   │   │       ├── factory.py
+│   │   │       │   │   │       ├── found_candidates.py
+│   │   │       │   │   │       ├── provider.py
+│   │   │       │   │   │       ├── reporter.py
+│   │   │       │   │   │       ├── requirements.py
+│   │   │       │   │   │       └── resolver.py
+│   │   │       │   │   ├── self_outdated_check.py
+│   │   │       │   │   ├── utils
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── _jaraco_text.py
+│   │   │       │   │   │   ├── _log.py
+│   │   │       │   │   │   ├── appdirs.py
+│   │   │       │   │   │   ├── compat.py
+│   │   │       │   │   │   ├── compatibility_tags.py
+│   │   │       │   │   │   ├── datetime.py
+│   │   │       │   │   │   ├── deprecation.py
+│   │   │       │   │   │   ├── direct_url_helpers.py
+│   │   │       │   │   │   ├── egg_link.py
+│   │   │       │   │   │   ├── encoding.py
+│   │   │       │   │   │   ├── entrypoints.py
+│   │   │       │   │   │   ├── filesystem.py
+│   │   │       │   │   │   ├── filetypes.py
+│   │   │       │   │   │   ├── glibc.py
+│   │   │       │   │   │   ├── hashes.py
+│   │   │       │   │   │   ├── logging.py
+│   │   │       │   │   │   ├── misc.py
+│   │   │       │   │   │   ├── models.py
+│   │   │       │   │   │   ├── packaging.py
+│   │   │       │   │   │   ├── setuptools_build.py
+│   │   │       │   │   │   ├── subprocess.py
+│   │   │       │   │   │   ├── temp_dir.py
+│   │   │       │   │   │   ├── unpacking.py
+│   │   │       │   │   │   ├── urls.py
+│   │   │       │   │   │   ├── virtualenv.py
+│   │   │       │   │   │   └── wheel.py
+│   │   │       │   │   ├── vcs
+│   │   │       │   │   │   ├── __init__.py
+│   │   │       │   │   │   ├── bazaar.py
+│   │   │       │   │   │   ├── git.py
+│   │   │       │   │   │   ├── mercurial.py
+│   │   │       │   │   │   ├── subversion.py
+│   │   │       │   │   │   └── versioncontrol.py
+│   │   │       │   │   └── wheel_builder.py
+│   │   │       │   └── _vendor
+│   │   │       │       ├── __init__.py
+│   │   │       │       ├── cachecontrol
+│   │   │       │       │   ├── __init__.py
+│   │   │       │       │   ├── _cmd.py
+│   │   │       │       │   ├── adapter.py
+│   │   │       │       │   ├── cache.py
+│   │   │       │       │   ├── caches
+│   │   │       │       │   │   ├── __init__.py
+│   │   │       │       │   │   ├── file_cache.py
+│   │   │       │       │   │   └── redis_cache.py
+│   │   │       │       │   ├── controller.py
+│   │   │       │       │   ├── filewrapper.py
+│   │   │       │       │   ├── heuristics.py
+│   │   │       │       │   ├── serialize.py
+│   │   │       │       │   └── wrapper.py
+│   │   │       │       ├── certifi
+│   │   │       │       │   ├── __init__.py
+│   │   │       │       │   ├── __main__.py
+│   │   │       │       │   ├── cacert.pem
+│   │   │       │       │   └── core.py
+│   │   │       │       └── chardet
+│   │   │       │           ├── __init__.py
+│   │   │       │           ├── big5freq.py
+│   │   │       │           ├── big5prober.py
+│   │   │       │           ├── chardistribution.py
+│   │   │       │           ├── charsetgroupprober.py
+│   │   │       │           ├── charsetprober.py
+│   │   │       │           ├── cli
+│   │   │       │           │   ├── __init__.py
+│   │   │       │           │   └── chardetect.py
+│   │   │       │           ├── codingstatemachine.py
+│   │   │       │           ├── codingstatemachinedict.py
+│   │   │       │           ├── cp949prober.py
+│   │   │       │           ├── enums.py
+│   │   │       │           ├── escprober.py
+│   │   │       │           ├── escsm.py
+│   │   │       │           └── eucjpprober.py
+│   │   │       └── pip-24.0.dist-info
+│   │   │           ├── AUTHORS.txt
+│   │   │           ├── LICENSE.txt
+│   │   │           ├── METADATA
+│   │   │           ├── RECORD
+│   │   │           ├── WHEEL
+│   │   │           ├── entry_points.txt
+│   │   │           └── top_level.txt
+│   │   └── site-packages
+│   │       ├── PIL
+│   │       │   ├── AvifImagePlugin.py
+│   │       │   ├── BdfFontFile.py
+│   │       │   ├── BlpImagePlugin.py
+│   │       │   ├── BmpImagePlugin.py
+│   │       │   ├── BufrStubImagePlugin.py
+│   │       │   ├── ContainerIO.py
+│   │       │   ├── CurImagePlugin.py
+│   │       │   ├── DcxImagePlugin.py
+│   │       │   ├── DdsImagePlugin.py
+│   │       │   ├── EpsImagePlugin.py
+│   │       │   ├── ExifTags.py
+│   │       │   ├── FitsImagePlugin.py
+│   │       │   ├── FliImagePlugin.py
+│   │       │   ├── FontFile.py
+│   │       │   ├── FpxImagePlugin.py
+│   │       │   ├── FtexImagePlugin.py
+│   │       │   ├── GbrImagePlugin.py
+│   │       │   ├── GdImageFile.py
+│   │       │   ├── GifImagePlugin.py
+│   │       │   ├── GimpGradientFile.py
+│   │       │   ├── GimpPaletteFile.py
+│   │       │   ├── GribStubImagePlugin.py
+│   │       │   ├── Hdf5StubImagePlugin.py
+│   │       │   ├── IcnsImagePlugin.py
+│   │       │   ├── IcoImagePlugin.py
+│   │       │   ├── ImImagePlugin.py
+│   │       │   ├── Image.py
+│   │       │   ├── ImageChops.py
+│   │       │   ├── ImageCms.py
+│   │       │   ├── ImageColor.py
+│   │       │   ├── ImageDraw.py
+│   │       │   ├── ImageDraw2.py
+│   │       │   ├── ImageEnhance.py
+│   │       │   ├── ImageFile.py
+│   │       │   ├── ImageFilter.py
+│   │       │   ├── ImageFont.py
+│   │       │   ├── ImageGrab.py
+│   │       │   ├── ImageMath.py
+│   │       │   ├── ImageMode.py
+│   │       │   ├── ImageMorph.py
+│   │       │   ├── ImageOps.py
+│   │       │   ├── ImagePalette.py
+│   │       │   ├── ImagePath.py
+│   │       │   ├── ImageQt.py
+│   │       │   ├── ImageSequence.py
+│   │       │   ├── ImageShow.py
+│   │       │   ├── ImageStat.py
+│   │       │   ├── ImageText.py
+│   │       │   ├── ImageTk.py
+│   │       │   ├── ImageTransform.py
+│   │       │   ├── ImageWin.py
+│   │       │   ├── ImtImagePlugin.py
+│   │       │   ├── IptcImagePlugin.py
+│   │       │   ├── Jpeg2KImagePlugin.py
+│   │       │   ├── JpegImagePlugin.py
+│   │       │   ├── JpegPresets.py
+│   │       │   ├── McIdasImagePlugin.py
+│   │       │   ├── MicImagePlugin.py
+│   │       │   ├── MpegImagePlugin.py
+│   │       │   ├── MpoImagePlugin.py
+│   │       │   ├── MspImagePlugin.py
+│   │       │   ├── PSDraw.py
+│   │       │   ├── PaletteFile.py
+│   │       │   ├── PalmImagePlugin.py
+│   │       │   ├── PcdImagePlugin.py
+│   │       │   ├── PcfFontFile.py
+│   │       │   ├── PcxImagePlugin.py
+│   │       │   ├── PdfImagePlugin.py
+│   │       │   ├── PdfParser.py
+│   │       │   ├── PixarImagePlugin.py
+│   │       │   ├── PngImagePlugin.py
+│   │       │   ├── PpmImagePlugin.py
+│   │       │   ├── PsdImagePlugin.py
+│   │       │   ├── QoiImagePlugin.py
+│   │       │   ├── SgiImagePlugin.py
+│   │       │   ├── SpiderImagePlugin.py
+│   │       │   ├── SunImagePlugin.py
+│   │       │   ├── TarIO.py
+│   │       │   ├── TgaImagePlugin.py
+│   │       │   ├── TiffImagePlugin.py
+│   │       │   ├── TiffTags.py
+│   │       │   ├── WalImageFile.py
+│   │       │   ├── WebPImagePlugin.py
+│   │       │   ├── WmfImagePlugin.py
+│   │       │   ├── XVThumbImagePlugin.py
+│   │       │   ├── XbmImagePlugin.py
+│   │       │   ├── XpmImagePlugin.py
+│   │       │   ├── __init__.py
+│   │       │   ├── __main__.py
+│   │       │   ├── __pycache__
+│   │       │   │   ├── AvifImagePlugin.cpython-313.pyc
+│   │       │   │   ├── BdfFontFile.cpython-313.pyc
+│   │       │   │   ├── BlpImagePlugin.cpython-313.pyc
+│   │       │   │   ├── BmpImagePlugin.cpython-313.pyc
+│   │       │   │   ├── BufrStubImagePlugin.cpython-313.pyc
+│   │       │   │   ├── ContainerIO.cpython-313.pyc
+│   │       │   │   ├── CurImagePlugin.cpython-313.pyc
+│   │       │   │   ├── DcxImagePlugin.cpython-313.pyc
+│   │       │   │   ├── DdsImagePlugin.cpython-313.pyc
+│   │       │   │   ├── EpsImagePlugin.cpython-313.pyc
+│   │       │   │   ├── ExifTags.cpython-313.pyc
+│   │       │   │   ├── FitsImagePlugin.cpython-313.pyc
+│   │       │   │   ├── FliImagePlugin.cpython-313.pyc
+│   │       │   │   ├── FontFile.cpython-313.pyc
+│   │       │   │   ├── FpxImagePlugin.cpython-313.pyc
+│   │       │   │   ├── FtexImagePlugin.cpython-313.pyc
+│   │       │   │   ├── GbrImagePlugin.cpython-313.pyc
+│   │       │   │   ├── GdImageFile.cpython-313.pyc
+│   │       │   │   ├── GifImagePlugin.cpython-313.pyc
+│   │       │   │   ├── GimpGradientFile.cpython-313.pyc
+│   │       │   │   ├── GimpPaletteFile.cpython-313.pyc
+│   │       │   │   ├── GribStubImagePlugin.cpython-313.pyc
+│   │       │   │   ├── Hdf5StubImagePlugin.cpython-313.pyc
+│   │       │   │   ├── IcnsImagePlugin.cpython-313.pyc
+│   │       │   │   ├── IcoImagePlugin.cpython-313.pyc
+│   │       │   │   ├── ImImagePlugin.cpython-313.pyc
+│   │       │   │   ├── Image.cpython-313.pyc
+│   │       │   │   ├── ImageChops.cpython-313.pyc
+│   │       │   │   ├── ImageCms.cpython-313.pyc
+│   │       │   │   ├── ImageColor.cpython-313.pyc
+│   │       │   │   ├── ImageDraw.cpython-313.pyc
+│   │       │   │   ├── ImageDraw2.cpython-313.pyc
+│   │       │   │   ├── ImageEnhance.cpython-313.pyc
+│   │       │   │   ├── ImageFile.cpython-313.pyc
+│   │       │   │   ├── ImageFilter.cpython-313.pyc
+│   │       │   │   ├── ImageFont.cpython-313.pyc
+│   │       │   │   ├── ImageGrab.cpython-313.pyc
+│   │       │   │   ├── ImageMath.cpython-313.pyc
+│   │       │   │   ├── ImageMode.cpython-313.pyc
+│   │       │   │   ├── ImageMorph.cpython-313.pyc
+│   │       │   │   ├── ImageOps.cpython-313.pyc
+│   │       │   │   ├── ImagePalette.cpython-313.pyc
+│   │       │   │   ├── ImagePath.cpython-313.pyc
+│   │       │   │   ├── ImageQt.cpython-313.pyc
+│   │       │   │   ├── ImageSequence.cpython-313.pyc
+│   │       │   │   ├── ImageShow.cpython-313.pyc
+│   │       │   │   ├── ImageStat.cpython-313.pyc
+│   │       │   │   ├── ImageText.cpython-313.pyc
+│   │       │   │   ├── ImageTk.cpython-313.pyc
+│   │       │   │   ├── ImageTransform.cpython-313.pyc
+│   │       │   │   ├── ImageWin.cpython-313.pyc
+│   │       │   │   ├── ImtImagePlugin.cpython-313.pyc
+│   │       │   │   ├── IptcImagePlugin.cpython-313.pyc
+│   │       │   │   ├── Jpeg2KImagePlugin.cpython-313.pyc
+│   │       │   │   ├── JpegImagePlugin.cpython-313.pyc
+│   │       │   │   ├── JpegPresets.cpython-313.pyc
+│   │       │   │   ├── McIdasImagePlugin.cpython-313.pyc
+│   │       │   │   ├── MicImagePlugin.cpython-313.pyc
+│   │       │   │   ├── MpegImagePlugin.cpython-313.pyc
+│   │       │   │   ├── MpoImagePlugin.cpython-313.pyc
+│   │       │   │   ├── MspImagePlugin.cpython-313.pyc
+│   │       │   │   ├── PSDraw.cpython-313.pyc
+│   │       │   │   ├── PaletteFile.cpython-313.pyc
+│   │       │   │   ├── PalmImagePlugin.cpython-313.pyc
+│   │       │   │   ├── PcdImagePlugin.cpython-313.pyc
+│   │       │   │   ├── PcfFontFile.cpython-313.pyc
+│   │       │   │   ├── PcxImagePlugin.cpython-313.pyc
+│   │       │   │   ├── PdfImagePlugin.cpython-313.pyc
+│   │       │   │   ├── PdfParser.cpython-313.pyc
+│   │       │   │   ├── PixarImagePlugin.cpython-313.pyc
+│   │       │   │   ├── PngImagePlugin.cpython-313.pyc
+│   │       │   │   ├── PpmImagePlugin.cpython-313.pyc
+│   │       │   │   ├── PsdImagePlugin.cpython-313.pyc
+│   │       │   │   ├── QoiImagePlugin.cpython-313.pyc
+│   │       │   │   ├── SgiImagePlugin.cpython-313.pyc
+│   │       │   │   ├── SpiderImagePlugin.cpython-313.pyc
+│   │       │   │   ├── SunImagePlugin.cpython-313.pyc
+│   │       │   │   ├── TarIO.cpython-313.pyc
+│   │       │   │   ├── TgaImagePlugin.cpython-313.pyc
+│   │       │   │   ├── TiffImagePlugin.cpython-313.pyc
+│   │       │   │   ├── TiffTags.cpython-313.pyc
+│   │       │   │   ├── WalImageFile.cpython-313.pyc
+│   │       │   │   ├── WebPImagePlugin.cpython-313.pyc
+│   │       │   │   ├── WmfImagePlugin.cpython-313.pyc
+│   │       │   │   ├── XVThumbImagePlugin.cpython-313.pyc
+│   │       │   │   ├── XbmImagePlugin.cpython-313.pyc
+│   │       │   │   ├── XpmImagePlugin.cpython-313.pyc
+│   │       │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   ├── __main__.cpython-313.pyc
+│   │       │   │   ├── _binary.cpython-313.pyc
+│   │       │   │   ├── _deprecate.cpython-313.pyc
+│   │       │   │   ├── _tkinter_finder.cpython-313.pyc
+│   │       │   │   ├── _typing.cpython-313.pyc
+│   │       │   │   ├── _util.cpython-313.pyc
+│   │       │   │   ├── _version.cpython-313.pyc
+│   │       │   │   ├── features.cpython-313.pyc
+│   │       │   │   └── report.cpython-313.pyc
+│   │       │   ├── _avif.cp313-win_amd64.pyd
+│   │       │   ├── _avif.pyi
+│   │       │   ├── _binary.py
+│   │       │   ├── _deprecate.py
+│   │       │   ├── _imaging.cp313-win_amd64.pyd
+│   │       │   ├── _imaging.pyi
+│   │       │   ├── _imagingcms.cp313-win_amd64.pyd
+│   │       │   ├── _imagingcms.pyi
+│   │       │   ├── _imagingft.cp313-win_amd64.pyd
+│   │       │   ├── _imagingft.pyi
+│   │       │   ├── _imagingmath.cp313-win_amd64.pyd
+│   │       │   ├── _imagingmath.pyi
+│   │       │   ├── _imagingmorph.cp313-win_amd64.pyd
+│   │       │   ├── _imagingmorph.pyi
+│   │       │   ├── _imagingtk.cp313-win_amd64.pyd
+│   │       │   ├── _imagingtk.pyi
+│   │       │   ├── _tkinter_finder.py
+│   │       │   ├── _typing.py
+│   │       │   ├── _util.py
+│   │       │   ├── _version.py
+│   │       │   ├── _webp.cp313-win_amd64.pyd
+│   │       │   ├── _webp.pyi
+│   │       │   ├── features.py
+│   │       │   ├── py.typed
+│   │       │   └── report.py
+│   │       ├── __pycache__
+│   │       │   └── brotli.cpython-313.pyc
+│   │       ├── _brotli.cp313-win_amd64.pyd
+│   │       ├── _cffi_backend.cp313-win_amd64.pyd
+│   │       ├── asgiref
+│   │       │   ├── __init__.py
+│   │       │   ├── __pycache__
+│   │       │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   ├── compatibility.cpython-313.pyc
+│   │       │   │   ├── current_thread_executor.cpython-313.pyc
+│   │       │   │   ├── local.cpython-313.pyc
+│   │       │   │   ├── server.cpython-313.pyc
+│   │       │   │   ├── sync.cpython-313.pyc
+│   │       │   │   ├── testing.cpython-313.pyc
+│   │       │   │   ├── timeout.cpython-313.pyc
+│   │       │   │   ├── typing.cpython-313.pyc
+│   │       │   │   └── wsgi.cpython-313.pyc
+│   │       │   ├── compatibility.py
+│   │       │   ├── current_thread_executor.py
+│   │       │   ├── local.py
+│   │       │   ├── py.typed
+│   │       │   ├── server.py
+│   │       │   ├── sync.py
+│   │       │   ├── testing.py
+│   │       │   ├── timeout.py
+│   │       │   ├── typing.py
+│   │       │   └── wsgi.py
+│   │       ├── asgiref-3.11.1.dist-info
+│   │       │   ├── INSTALLER
+│   │       │   ├── METADATA
+│   │       │   ├── RECORD
+│   │       │   ├── WHEEL
+│   │       │   ├── licenses
+│   │       │   │   └── LICENSE
+│   │       │   └── top_level.txt
+│   │       ├── brotli-1.2.0.dist-info
+│   │       │   ├── INSTALLER
+│   │       │   ├── METADATA
+│   │       │   ├── RECORD
+│   │       │   ├── WHEEL
+│   │       │   ├── licenses
+│   │       │   │   └── LICENSE
+│   │       │   └── top_level.txt
+│   │       ├── brotli.py
+│   │       ├── cffi
+│   │       │   ├── __init__.py
+│   │       │   ├── __pycache__
+│   │       │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   ├── _imp_emulation.cpython-313.pyc
+│   │       │   │   ├── _shimmed_dist_utils.cpython-313.pyc
+│   │       │   │   ├── api.cpython-313.pyc
+│   │       │   │   ├── backend_ctypes.cpython-313.pyc
+│   │       │   │   ├── cffi_opcode.cpython-313.pyc
+│   │       │   │   ├── commontypes.cpython-313.pyc
+│   │       │   │   ├── cparser.cpython-313.pyc
+│   │       │   │   ├── error.cpython-313.pyc
+│   │       │   │   ├── ffiplatform.cpython-313.pyc
+│   │       │   │   ├── lock.cpython-313.pyc
+│   │       │   │   ├── model.cpython-313.pyc
+│   │       │   │   ├── pkgconfig.cpython-313.pyc
+│   │       │   │   ├── recompiler.cpython-313.pyc
+│   │       │   │   ├── setuptools_ext.cpython-313.pyc
+│   │       │   │   ├── vengine_cpy.cpython-313.pyc
+│   │       │   │   ├── vengine_gen.cpython-313.pyc
+│   │       │   │   └── verifier.cpython-313.pyc
+│   │       │   ├── _cffi_errors.h
+│   │       │   ├── _cffi_include.h
+│   │       │   ├── _embedding.h
+│   │       │   ├── _imp_emulation.py
+│   │       │   ├── _shimmed_dist_utils.py
+│   │       │   ├── api.py
+│   │       │   ├── backend_ctypes.py
+│   │       │   ├── cffi_opcode.py
+│   │       │   ├── commontypes.py
+│   │       │   ├── cparser.py
+│   │       │   ├── error.py
+│   │       │   ├── ffiplatform.py
+│   │       │   ├── lock.py
+│   │       │   ├── model.py
+│   │       │   ├── parse_c_type.h
+│   │       │   ├── pkgconfig.py
+│   │       │   ├── recompiler.py
+│   │       │   ├── setuptools_ext.py
+│   │       │   ├── vengine_cpy.py
+│   │       │   ├── vengine_gen.py
+│   │       │   └── verifier.py
+│   │       ├── cffi-2.0.0.dist-info
+│   │       │   ├── INSTALLER
+│   │       │   ├── METADATA
+│   │       │   ├── RECORD
+│   │       │   ├── WHEEL
+│   │       │   ├── entry_points.txt
+│   │       │   ├── licenses
+│   │       │   │   ├── AUTHORS
+│   │       │   │   └── LICENSE
+│   │       │   └── top_level.txt
+│   │       ├── cssselect2
+│   │       │   ├── __init__.py
+│   │       │   ├── __pycache__
+│   │       │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   ├── compiler.cpython-313.pyc
+│   │       │   │   ├── parser.cpython-313.pyc
+│   │       │   │   └── tree.cpython-313.pyc
+│   │       │   ├── compiler.py
+│   │       │   ├── parser.py
+│   │       │   └── tree.py
+│   │       ├── cssselect2-0.8.0.dist-info
+│   │       │   ├── INSTALLER
+│   │       │   ├── METADATA
+│   │       │   ├── RECORD
+│   │       │   ├── WHEEL
+│   │       │   └── licenses
+│   │       │       └── LICENSE
+│   │       ├── django
+│   │       │   ├── __init__.py
+│   │       │   ├── __main__.py
+│   │       │   ├── __pycache__
+│   │       │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   ├── __main__.cpython-313.pyc
+│   │       │   │   └── shortcuts.cpython-313.pyc
+│   │       │   ├── apps
+│   │       │   │   ├── __init__.py
+│   │       │   │   ├── __pycache__
+│   │       │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   ├── config.cpython-313.pyc
+│   │       │   │   │   └── registry.cpython-313.pyc
+│   │       │   │   ├── config.py
+│   │       │   │   └── registry.py
+│   │       │   ├── conf
+│   │       │   │   ├── __init__.py
+│   │       │   │   ├── __pycache__
+│   │       │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   └── global_settings.cpython-313.pyc
+│   │       │   │   ├── app_template
+│   │       │   │   │   ├── __init__.py-tpl
+│   │       │   │   │   ├── admin.py-tpl
+│   │       │   │   │   ├── apps.py-tpl
+│   │       │   │   │   ├── migrations
+│   │       │   │   │   │   └── __init__.py-tpl
+│   │       │   │   │   ├── models.py-tpl
+│   │       │   │   │   ├── tests.py-tpl
+│   │       │   │   │   └── views.py-tpl
+│   │       │   │   ├── global_settings.py
+│   │       │   │   ├── locale
+│   │       │   │   │   ├── __init__.py
+│   │       │   │   │   ├── __pycache__
+│   │       │   │   │   │   └── __init__.cpython-313.pyc
+│   │       │   │   │   ├── af
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── ar
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ar_DZ
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ast
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── az
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── be
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── bg
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── bn
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── br
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── bs
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ca
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ckb
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── cs
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── cy
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── da
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── de
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── de_CH
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── dsb
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── el
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── en
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── en_AU
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── en_CA
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── en_GB
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── en_IE
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── eo
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── es
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── es_AR
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── es_CO
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── es_MX
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── es_NI
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── es_PR
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── es_VE
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── et
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── eu
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── fa
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── fi
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── fr
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── fr_BE
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── fr_CA
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── fr_CH
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── fy
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ga
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── gd
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── gl
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── he
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── hi
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── hr
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── hsb
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── ht
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── hu
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── hy
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── ia
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── id
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ig
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── io
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── is
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── it
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ja
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ka
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── kab
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── kk
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── km
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── kn
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ko
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ky
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── lb
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── lt
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── lv
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── mk
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ml
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── mn
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── mr
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── ms
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── my
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── nb
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ne
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── nl
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── nn
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── os
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── pa
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── pl
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── pt
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── pt_BR
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ro
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ru
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── sk
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── sl
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── sq
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── sr
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── sr_Latn
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── sv
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── sw
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── ta
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── te
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── tg
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── th
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── tk
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── tr
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── tt
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── udm
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── ug
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── uk
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── ur
+│   │       │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │       ├── django.mo
+│   │       │   │   │   │       └── django.po
+│   │       │   │   │   ├── uz
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── vi
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   ├── zh_Hans
+│   │       │   │   │   │   ├── LC_MESSAGES
+│   │       │   │   │   │   │   ├── django.mo
+│   │       │   │   │   │   │   └── django.po
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── formats.cpython-313.pyc
+│   │       │   │   │   │   └── formats.py
+│   │       │   │   │   └── zh_Hant
+│   │       │   │   │       ├── LC_MESSAGES
+│   │       │   │   │       │   ├── django.mo
+│   │       │   │   │       │   └── django.po
+│   │       │   │   │       ├── __init__.py
+│   │       │   │   │       ├── __pycache__
+│   │       │   │   │       │   ├── __init__.cpython-313.pyc
+│   │       │   │   │       │   └── formats.cpython-313.pyc
+│   │       │   │   │       └── formats.py
+│   │       │   │   ├── project_template
+│   │       │   │   │   ├── manage.py-tpl
+│   │       │   │   │   └── project_name
+│   │       │   │   │       ├── __init__.py-tpl
+│   │       │   │   │       ├── asgi.py-tpl
+│   │       │   │   │       ├── settings.py-tpl
+│   │       │   │   │       ├── urls.py-tpl
+│   │       │   │   │       └── wsgi.py-tpl
+│   │       │   │   └── urls
+│   │       │   │       ├── __init__.py
+│   │       │   │       ├── __pycache__
+│   │       │   │       │   ├── __init__.cpython-313.pyc
+│   │       │   │       │   ├── i18n.cpython-313.pyc
+│   │       │   │       │   └── static.cpython-313.pyc
+│   │       │   │       ├── i18n.py
+│   │       │   │       └── static.py
+│   │       │   ├── contrib
+│   │       │   │   ├── __init__.py
+│   │       │   │   ├── __pycache__
+│   │       │   │   │   └── __init__.cpython-313.pyc
+│   │       │   │   ├── admin
+│   │       │   │   │   ├── __init__.py
+│   │       │   │   │   ├── __pycache__
+│   │       │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   ├── actions.cpython-313.pyc
+│   │       │   │   │   │   ├── apps.cpython-313.pyc
+│   │       │   │   │   │   ├── checks.cpython-313.pyc
+│   │       │   │   │   │   ├── decorators.cpython-313.pyc
+│   │       │   │   │   │   ├── exceptions.cpython-313.pyc
+│   │       │   │   │   │   ├── filters.cpython-313.pyc
+│   │       │   │   │   │   ├── forms.cpython-313.pyc
+│   │       │   │   │   │   ├── helpers.cpython-313.pyc
+│   │       │   │   │   │   ├── models.cpython-313.pyc
+│   │       │   │   │   │   ├── options.cpython-313.pyc
+│   │       │   │   │   │   ├── sites.cpython-313.pyc
+│   │       │   │   │   │   ├── tests.cpython-313.pyc
+│   │       │   │   │   │   ├── utils.cpython-313.pyc
+│   │       │   │   │   │   └── widgets.cpython-313.pyc
+│   │       │   │   │   ├── actions.py
+│   │       │   │   │   ├── apps.py
+│   │       │   │   │   ├── checks.py
+│   │       │   │   │   ├── decorators.py
+│   │       │   │   │   ├── exceptions.py
+│   │       │   │   │   ├── filters.py
+│   │       │   │   │   ├── forms.py
+│   │       │   │   │   ├── helpers.py
+│   │       │   │   │   ├── locale
+│   │       │   │   │   │   ├── af
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── am
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ar
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ar_DZ
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ast
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── az
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── be
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── bg
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── bn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── br
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── bs
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ca
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ckb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── cs
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── cy
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── da
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── de
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── dsb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── el
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── en
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── en_AU
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── en_GB
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── eo
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── es
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── es_AR
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── es_CO
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── es_MX
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── es_VE
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── et
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── eu
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── fa
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── fi
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── fr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── fy
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ga
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── gd
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── gl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── he
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── hi
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── hr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── hsb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── hu
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── hy
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ia
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── id
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── io
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── is
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── it
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ja
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ka
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── kab
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── kk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── km
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── kn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ko
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ky
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── lb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── lt
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── lv
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── mk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ml
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── mn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── mr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ms
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── my
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── nb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ne
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── nl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── nn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── os
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── pa
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── pl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── pt
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── pt_BR
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ro
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ru
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── sk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── sl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── sq
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── sr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── sr_Latn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── sv
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── sw
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ta
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── te
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── tg
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── th
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── tk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── tr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── tt
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── udm
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ug
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── uk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── ur
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── uz
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── vi
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   ├── zh_Hans
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       ├── django.po
+│   │       │   │   │   │   │       ├── djangojs.mo
+│   │       │   │   │   │   │       └── djangojs.po
+│   │       │   │   │   │   └── zh_Hant
+│   │       │   │   │   │       └── LC_MESSAGES
+│   │       │   │   │   │           ├── django.mo
+│   │       │   │   │   │           ├── django.po
+│   │       │   │   │   │           ├── djangojs.mo
+│   │       │   │   │   │           └── djangojs.po
+│   │       │   │   │   ├── migrations
+│   │       │   │   │   │   ├── 0001_initial.py
+│   │       │   │   │   │   ├── 0002_logentry_remove_auto_add.py
+│   │       │   │   │   │   ├── 0003_logentry_add_action_flag_choices.py
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   └── __pycache__
+│   │       │   │   │   │       ├── 0001_initial.cpython-313.pyc
+│   │       │   │   │   │       ├── 0002_logentry_remove_auto_add.cpython-313.pyc
+│   │       │   │   │   │       ├── 0003_logentry_add_action_flag_choices.cpython-313.pyc
+│   │       │   │   │   │       └── __init__.cpython-313.pyc
+│   │       │   │   │   ├── models.py
+│   │       │   │   │   ├── options.py
+│   │       │   │   │   ├── sites.py
+│   │       │   │   │   ├── static
+│   │       │   │   │   │   └── admin
+│   │       │   │   │   │       ├── css
+│   │       │   │   │   │       │   ├── autocomplete.css
+│   │       │   │   │   │       │   ├── base.css
+│   │       │   │   │   │       │   ├── changelists.css
+│   │       │   │   │   │       │   ├── dark_mode.css
+│   │       │   │   │   │       │   ├── dashboard.css
+│   │       │   │   │   │       │   ├── forms.css
+│   │       │   │   │   │       │   ├── login.css
+│   │       │   │   │   │       │   ├── nav_sidebar.css
+│   │       │   │   │   │       │   ├── responsive.css
+│   │       │   │   │   │       │   ├── responsive_rtl.css
+│   │       │   │   │   │       │   ├── rtl.css
+│   │       │   │   │   │       │   ├── unusable_password_field.css
+│   │       │   │   │   │       │   ├── vendor
+│   │       │   │   │   │       │   │   └── select2
+│   │       │   │   │   │       │   │       ├── LICENSE-SELECT2.md
+│   │       │   │   │   │       │   │       ├── select2.css
+│   │       │   │   │   │       │   │       └── select2.min.css
+│   │       │   │   │   │       │   └── widgets.css
+│   │       │   │   │   │       ├── img
+│   │       │   │   │   │       │   ├── README.md
+│   │       │   │   │   │       │   ├── calendar-icons.svg
+│   │       │   │   │   │       │   ├── icon-addlink.svg
+│   │       │   │   │   │       │   ├── icon-alert-dark.svg
+│   │       │   │   │   │       │   ├── icon-alert.svg
+│   │       │   │   │   │       │   ├── icon-calendar.svg
+│   │       │   │   │   │       │   ├── icon-changelink.svg
+│   │       │   │   │   │       │   ├── icon-clock.svg
+│   │       │   │   │   │       │   ├── icon-debug-dark.svg
+│   │       │   │   │   │       │   ├── icon-debug.svg
+│   │       │   │   │   │       │   ├── icon-deletelink.svg
+│   │       │   │   │   │       │   ├── icon-hidelink.svg
+│   │       │   │   │   │       │   ├── icon-info-dark.svg
+│   │       │   │   │   │       │   ├── icon-info.svg
+│   │       │   │   │   │       │   ├── icon-no-dark.svg
+│   │       │   │   │   │       │   ├── icon-no.svg
+│   │       │   │   │   │       │   ├── icon-unknown-alt.svg
+│   │       │   │   │   │       │   ├── icon-unknown.svg
+│   │       │   │   │   │       │   ├── icon-viewlink.svg
+│   │       │   │   │   │       │   ├── icon-yes-dark.svg
+│   │       │   │   │   │       │   ├── icon-yes.svg
+│   │       │   │   │   │       │   ├── inline-delete.svg
+│   │       │   │   │   │       │   ├── search.svg
+│   │       │   │   │   │       │   ├── selector-icons.svg
+│   │       │   │   │   │       │   ├── sorting-icons.svg
+│   │       │   │   │   │       │   ├── tooltag-add.svg
+│   │       │   │   │   │       │   └── tooltag-arrowright.svg
+│   │       │   │   │   │       └── js
+│   │       │   │   │   │           ├── SelectBox.js
+│   │       │   │   │   │           ├── SelectFilter2.js
+│   │       │   │   │   │           ├── actions.js
+│   │       │   │   │   │           ├── admin
+│   │       │   │   │   │           │   ├── DateTimeShortcuts.js
+│   │       │   │   │   │           │   └── RelatedObjectLookups.js
+│   │       │   │   │   │           ├── autocomplete.js
+│   │       │   │   │   │           ├── calendar.js
+│   │       │   │   │   │           ├── cancel.js
+│   │       │   │   │   │           ├── change_form.js
+│   │       │   │   │   │           ├── core.js
+│   │       │   │   │   │           ├── filters.js
+│   │       │   │   │   │           ├── inlines.js
+│   │       │   │   │   │           ├── jquery.init.js
+│   │       │   │   │   │           ├── nav_sidebar.js
+│   │       │   │   │   │           ├── popup_response.js
+│   │       │   │   │   │           ├── prepopulate.js
+│   │       │   │   │   │           ├── prepopulate_init.js
+│   │       │   │   │   │           ├── theme.js
+│   │       │   │   │   │           ├── urlify.js
+│   │       │   │   │   │           └── vendor
+│   │       │   │   │   │               ├── jquery
+│   │       │   │   │   │               │   ├── LICENSE.txt
+│   │       │   │   │   │               │   ├── jquery.js
+│   │       │   │   │   │               │   └── jquery.min.js
+│   │       │   │   │   │               ├── select2
+│   │       │   │   │   │               │   ├── LICENSE.md
+│   │       │   │   │   │               │   ├── i18n
+│   │       │   │   │   │               │   │   ├── af.js
+│   │       │   │   │   │               │   │   ├── ar.js
+│   │       │   │   │   │               │   │   ├── az.js
+│   │       │   │   │   │               │   │   ├── bg.js
+│   │       │   │   │   │               │   │   ├── bn.js
+│   │       │   │   │   │               │   │   ├── bs.js
+│   │       │   │   │   │               │   │   ├── ca.js
+│   │       │   │   │   │               │   │   ├── cs.js
+│   │       │   │   │   │               │   │   ├── da.js
+│   │       │   │   │   │               │   │   ├── de.js
+│   │       │   │   │   │               │   │   ├── dsb.js
+│   │       │   │   │   │               │   │   ├── el.js
+│   │       │   │   │   │               │   │   ├── en.js
+│   │       │   │   │   │               │   │   ├── es.js
+│   │       │   │   │   │               │   │   ├── et.js
+│   │       │   │   │   │               │   │   ├── eu.js
+│   │       │   │   │   │               │   │   ├── fa.js
+│   │       │   │   │   │               │   │   ├── fi.js
+│   │       │   │   │   │               │   │   ├── fr.js
+│   │       │   │   │   │               │   │   ├── gl.js
+│   │       │   │   │   │               │   │   ├── he.js
+│   │       │   │   │   │               │   │   ├── hi.js
+│   │       │   │   │   │               │   │   ├── hr.js
+│   │       │   │   │   │               │   │   ├── hsb.js
+│   │       │   │   │   │               │   │   ├── hu.js
+│   │       │   │   │   │               │   │   ├── hy.js
+│   │       │   │   │   │               │   │   ├── id.js
+│   │       │   │   │   │               │   │   ├── is.js
+│   │       │   │   │   │               │   │   ├── it.js
+│   │       │   │   │   │               │   │   ├── ja.js
+│   │       │   │   │   │               │   │   ├── ka.js
+│   │       │   │   │   │               │   │   ├── km.js
+│   │       │   │   │   │               │   │   ├── ko.js
+│   │       │   │   │   │               │   │   ├── lt.js
+│   │       │   │   │   │               │   │   ├── lv.js
+│   │       │   │   │   │               │   │   ├── mk.js
+│   │       │   │   │   │               │   │   ├── ms.js
+│   │       │   │   │   │               │   │   ├── nb.js
+│   │       │   │   │   │               │   │   ├── ne.js
+│   │       │   │   │   │               │   │   ├── nl.js
+│   │       │   │   │   │               │   │   ├── pl.js
+│   │       │   │   │   │               │   │   ├── ps.js
+│   │       │   │   │   │               │   │   ├── pt-BR.js
+│   │       │   │   │   │               │   │   ├── pt.js
+│   │       │   │   │   │               │   │   ├── ro.js
+│   │       │   │   │   │               │   │   ├── ru.js
+│   │       │   │   │   │               │   │   ├── sk.js
+│   │       │   │   │   │               │   │   ├── sl.js
+│   │       │   │   │   │               │   │   ├── sq.js
+│   │       │   │   │   │               │   │   ├── sr-Cyrl.js
+│   │       │   │   │   │               │   │   ├── sr.js
+│   │       │   │   │   │               │   │   ├── sv.js
+│   │       │   │   │   │               │   │   ├── th.js
+│   │       │   │   │   │               │   │   ├── tk.js
+│   │       │   │   │   │               │   │   ├── tr.js
+│   │       │   │   │   │               │   │   ├── uk.js
+│   │       │   │   │   │               │   │   ├── vi.js
+│   │       │   │   │   │               │   │   ├── zh-CN.js
+│   │       │   │   │   │               │   │   └── zh-TW.js
+│   │       │   │   │   │               │   ├── select2.full.js
+│   │       │   │   │   │               │   └── select2.full.min.js
+│   │       │   │   │   │               └── xregexp
+│   │       │   │   │   │                   ├── LICENSE.txt
+│   │       │   │   │   │                   ├── xregexp.js
+│   │       │   │   │   │                   └── xregexp.min.js
+│   │       │   │   │   ├── templates
+│   │       │   │   │   │   ├── admin
+│   │       │   │   │   │   │   ├── 404.html
+│   │       │   │   │   │   │   ├── 500.html
+│   │       │   │   │   │   │   ├── actions.html
+│   │       │   │   │   │   │   ├── app_index.html
+│   │       │   │   │   │   │   ├── app_list.html
+│   │       │   │   │   │   │   ├── auth
+│   │       │   │   │   │   │   │   └── user
+│   │       │   │   │   │   │   │       ├── add_form.html
+│   │       │   │   │   │   │   │       └── change_password.html
+│   │       │   │   │   │   │   ├── base.html
+│   │       │   │   │   │   │   ├── base_site.html
+│   │       │   │   │   │   │   ├── change_form.html
+│   │       │   │   │   │   │   ├── change_form_object_tools.html
+│   │       │   │   │   │   │   ├── change_list.html
+│   │       │   │   │   │   │   ├── change_list_object_tools.html
+│   │       │   │   │   │   │   ├── change_list_results.html
+│   │       │   │   │   │   │   ├── color_theme_toggle.html
+│   │       │   │   │   │   │   ├── date_hierarchy.html
+│   │       │   │   │   │   │   ├── delete_confirmation.html
+│   │       │   │   │   │   │   ├── delete_selected_confirmation.html
+│   │       │   │   │   │   │   ├── edit_inline
+│   │       │   │   │   │   │   │   ├── stacked.html
+│   │       │   │   │   │   │   │   └── tabular.html
+│   │       │   │   │   │   │   ├── filter.html
+│   │       │   │   │   │   │   ├── includes
+│   │       │   │   │   │   │   │   ├── fieldset.html
+│   │       │   │   │   │   │   │   └── object_delete_summary.html
+│   │       │   │   │   │   │   ├── index.html
+│   │       │   │   │   │   │   ├── invalid_setup.html
+│   │       │   │   │   │   │   ├── login.html
+│   │       │   │   │   │   │   ├── nav_sidebar.html
+│   │       │   │   │   │   │   ├── object_history.html
+│   │       │   │   │   │   │   ├── pagination.html
+│   │       │   │   │   │   │   ├── popup_response.html
+│   │       │   │   │   │   │   ├── prepopulated_fields_js.html
+│   │       │   │   │   │   │   ├── search_form.html
+│   │       │   │   │   │   │   ├── submit_line.html
+│   │       │   │   │   │   │   └── widgets
+│   │       │   │   │   │   │       ├── clearable_file_input.html
+│   │       │   │   │   │   │       ├── date.html
+│   │       │   │   │   │   │       ├── foreign_key_raw_id.html
+│   │       │   │   │   │   │       ├── many_to_many_raw_id.html
+│   │       │   │   │   │   │       ├── radio.html
+│   │       │   │   │   │   │       ├── related_widget_wrapper.html
+│   │       │   │   │   │   │       ├── split_datetime.html
+│   │       │   │   │   │   │       ├── time.html
+│   │       │   │   │   │   │       └── url.html
+│   │       │   │   │   │   └── registration
+│   │       │   │   │   │       ├── logged_out.html
+│   │       │   │   │   │       ├── password_change_done.html
+│   │       │   │   │   │       ├── password_change_form.html
+│   │       │   │   │   │       ├── password_reset_complete.html
+│   │       │   │   │   │       ├── password_reset_confirm.html
+│   │       │   │   │   │       ├── password_reset_done.html
+│   │       │   │   │   │       ├── password_reset_email.html
+│   │       │   │   │   │       └── password_reset_form.html
+│   │       │   │   │   ├── templatetags
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   ├── admin_list.cpython-313.pyc
+│   │       │   │   │   │   │   ├── admin_modify.cpython-313.pyc
+│   │       │   │   │   │   │   ├── admin_urls.cpython-313.pyc
+│   │       │   │   │   │   │   ├── base.cpython-313.pyc
+│   │       │   │   │   │   │   └── log.cpython-313.pyc
+│   │       │   │   │   │   ├── admin_list.py
+│   │       │   │   │   │   ├── admin_modify.py
+│   │       │   │   │   │   ├── admin_urls.py
+│   │       │   │   │   │   ├── base.py
+│   │       │   │   │   │   └── log.py
+│   │       │   │   │   ├── tests.py
+│   │       │   │   │   ├── utils.py
+│   │       │   │   │   ├── views
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   ├── autocomplete.cpython-313.pyc
+│   │       │   │   │   │   │   ├── decorators.cpython-313.pyc
+│   │       │   │   │   │   │   └── main.cpython-313.pyc
+│   │       │   │   │   │   ├── autocomplete.py
+│   │       │   │   │   │   ├── decorators.py
+│   │       │   │   │   │   └── main.py
+│   │       │   │   │   └── widgets.py
+│   │       │   │   ├── admindocs
+│   │       │   │   │   ├── __init__.py
+│   │       │   │   │   ├── __pycache__
+│   │       │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   ├── apps.cpython-313.pyc
+│   │       │   │   │   │   ├── middleware.cpython-313.pyc
+│   │       │   │   │   │   ├── urls.cpython-313.pyc
+│   │       │   │   │   │   ├── utils.cpython-313.pyc
+│   │       │   │   │   │   └── views.cpython-313.pyc
+│   │       │   │   │   ├── apps.py
+│   │       │   │   │   ├── locale
+│   │       │   │   │   │   ├── af
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ar
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ar_DZ
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ast
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── az
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── be
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── bg
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── bn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── br
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── bs
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ca
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ckb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── cs
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── cy
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── da
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── de
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── dsb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── el
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── en
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── en_AU
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── en_GB
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── eo
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── es
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── es_AR
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── es_CO
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── es_MX
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── es_VE
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── et
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── eu
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── fa
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── fi
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── fr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── fy
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ga
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── gd
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── gl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── he
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── hi
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── hr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── hsb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── hu
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ia
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── id
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── io
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── is
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── it
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ja
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ka
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── kab
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── kk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── km
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── kn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ko
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ky
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── lb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── lt
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── lv
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── mk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ml
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── mn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── mr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ms
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── my
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── nb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ne
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── nl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── nn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── os
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── pa
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── pl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── pt
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── pt_BR
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ro
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ru
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sq
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sr_Latn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sv
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sw
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ta
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── te
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── tg
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── th
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── tr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── tt
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── udm
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ug
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── uk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ur
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── vi
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── zh_Hans
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   └── zh_Hant
+│   │       │   │   │   │       └── LC_MESSAGES
+│   │       │   │   │   │           ├── django.mo
+│   │       │   │   │   │           └── django.po
+│   │       │   │   │   ├── middleware.py
+│   │       │   │   │   ├── templates
+│   │       │   │   │   │   └── admin_doc
+│   │       │   │   │   │       ├── bookmarklets.html
+│   │       │   │   │   │       ├── index.html
+│   │       │   │   │   │       ├── missing_docutils.html
+│   │       │   │   │   │       ├── model_detail.html
+│   │       │   │   │   │       ├── model_index.html
+│   │       │   │   │   │       ├── template_detail.html
+│   │       │   │   │   │       ├── template_filter_index.html
+│   │       │   │   │   │       ├── template_tag_index.html
+│   │       │   │   │   │       ├── view_detail.html
+│   │       │   │   │   │       └── view_index.html
+│   │       │   │   │   ├── urls.py
+│   │       │   │   │   ├── utils.py
+│   │       │   │   │   └── views.py
+│   │       │   │   ├── auth
+│   │       │   │   │   ├── __init__.py
+│   │       │   │   │   ├── __pycache__
+│   │       │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   ├── admin.cpython-313.pyc
+│   │       │   │   │   │   ├── apps.cpython-313.pyc
+│   │       │   │   │   │   ├── backends.cpython-313.pyc
+│   │       │   │   │   │   ├── base_user.cpython-313.pyc
+│   │       │   │   │   │   ├── checks.cpython-313.pyc
+│   │       │   │   │   │   ├── context_processors.cpython-313.pyc
+│   │       │   │   │   │   ├── decorators.cpython-313.pyc
+│   │       │   │   │   │   ├── forms.cpython-313.pyc
+│   │       │   │   │   │   ├── hashers.cpython-313.pyc
+│   │       │   │   │   │   ├── middleware.cpython-313.pyc
+│   │       │   │   │   │   ├── mixins.cpython-313.pyc
+│   │       │   │   │   │   ├── models.cpython-313.pyc
+│   │       │   │   │   │   ├── password_validation.cpython-313.pyc
+│   │       │   │   │   │   ├── signals.cpython-313.pyc
+│   │       │   │   │   │   ├── tokens.cpython-313.pyc
+│   │       │   │   │   │   ├── urls.cpython-313.pyc
+│   │       │   │   │   │   ├── validators.cpython-313.pyc
+│   │       │   │   │   │   └── views.cpython-313.pyc
+│   │       │   │   │   ├── admin.py
+│   │       │   │   │   ├── apps.py
+│   │       │   │   │   ├── backends.py
+│   │       │   │   │   ├── base_user.py
+│   │       │   │   │   ├── checks.py
+│   │       │   │   │   ├── common-passwords.txt.gz
+│   │       │   │   │   ├── context_processors.py
+│   │       │   │   │   ├── decorators.py
+│   │       │   │   │   ├── forms.py
+│   │       │   │   │   ├── handlers
+│   │       │   │   │   │   ├── __init__.py
+│   │       │   │   │   │   ├── __pycache__
+│   │       │   │   │   │   │   ├── __init__.cpython-313.pyc
+│   │       │   │   │   │   │   └── modwsgi.cpython-313.pyc
+│   │       │   │   │   │   └── modwsgi.py
+│   │       │   │   │   ├── hashers.py
+│   │       │   │   │   ├── locale
+│   │       │   │   │   │   ├── af
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ar
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ar_DZ
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ast
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── az
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── be
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── bg
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── bn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── br
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── bs
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ca
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ckb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── cs
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── cy
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── da
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── de
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── dsb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── el
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── en
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── en_AU
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── en_GB
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── eo
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── es
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── es_AR
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── es_CO
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── es_MX
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── es_VE
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── et
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── eu
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── fa
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── fi
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── fr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── fy
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ga
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── gd
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── gl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── he
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── hi
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── hr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── hsb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── hu
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── hy
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ia
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── id
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── io
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── is
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── it
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ja
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ka
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── kab
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── kk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── km
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── kn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ko
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ky
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── lb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── lt
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── lv
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── mk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ml
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── mn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── mr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ms
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── my
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── nb
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ne
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── nl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── nn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── os
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── pa
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── pl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── pt
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── pt_BR
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ro
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ru
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sl
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sq
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sr_Latn
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sv
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── sw
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── ta
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── te
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── tg
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── th
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── tk
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── tr
+│   │       │   │   │   │   │   └── LC_MESSAGES
+│   │       │   │   │   │   │       ├── django.mo
+│   │       │   │   │   │   │       └── django.po
+│   │       │   │   │   │   ├── tt
+│   │       │   �

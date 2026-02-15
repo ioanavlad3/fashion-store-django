@@ -558,3 +558,47 @@ small {
     text-align: center;    
     width: 100%;            
 }
+
+
+.cos-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.cos-img {
+    width: 150px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.cos-details {
+    flex: 1;
+}
+
+.cantitate-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.cantitate-control button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sterge-btn {
+    background: #c0392b;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}

@@ -183,7 +183,7 @@ class Comanda(models.Model):
     metoda_plata = models.CharField(max_length=10, choices=metode)
     
     def __str__(self):
-        return self.id_comanda
+        return str(self.id_comanda)
 
 MAX_VIEWS = 5
 

@@ -542,24 +542,53 @@ from django.shortcuts import get_object_or_404
 from .models import Vizualizare
 
 
-def detalii_produs(request, id_produs):
-    produs = get_object_or_404(Produs, id_produs = id_produs )
+# def detalii_produs(request, id_produs):
+#     produs = get_object_or_404(Produs, id_produs = id_produs )
     
-    variante = produs.variante.all()
+#     variante = produs.variante.all()
+    
+#     # produs = get_object_or_404(VariantaProdus, id_varianta = id_produs)
+    
+#     #salvam vizualizarea doar daca user-ul e logat
+#     if request.user.is_active == True:
+#         Vizualizare.objects.create(
+#             user = request.user,
+#             produs = produs,
+#         )
+    
+    
+#     return render(request,  'magazin_haine/detalii_produs.html', 
+#                     {
+#                         'produs':produs,
+#                         'variante' : variante,
+#                     })
+
+
+
+def detalii_produs(request, id_varianta):
+    vprodus = get_object_or_404(VariantaProdus, id_varianta = id_varianta )
+    
+    #variante = produs.variante.all()
+    
+    # produs = get_object_or_404(VariantaProdus, id_varianta = id_produs)
     
     #salvam vizualizarea doar daca user-ul e logat
     if request.user.is_active == True:
         Vizualizare.objects.create(
             user = request.user,
-            produs = produs,
+            produs = vprodus.produs,
         )
     
+    maxim = vprodus.stoc
     
     return render(request,  'magazin_haine/detalii_produs.html', 
                     {
-                        'produs':produs,
-                        'variante' : variante,
+                        'var_produs':vprodus,
+                        # 'variante' : variante,
+                        'maxim' : maxim,
                     })
+
+
 
 from django.contrib import messages
 from django.http import HttpResponseRedirect
@@ -978,3 +1007,77 @@ def oferta(request):
     return HttpResponse(request, '<h2>Super Oferta</h2>')
 
 
+def cos_virtual(request):
+    return render(request, 'magazin_haine/cos.html')
+
+import json
+from .models import Comanda
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+import uuid
+from weasyprint import HTML
+import tempfile
+
+@csrf_exempt
+def comanda(request):
+    if request.method == "POST":
+        try:
+            data = json.loads(request.body)
+            cos = data.get("cos", [])
+
+            user = request.user if request.user.is_authenticated else None
+            if user is None:
+                return JsonResponse({"status": "no_user"}, status=400)
+
+            total_pret = sum(float(item["pret"]) * int(item["cantitate"]) for item in cos)
+
+            comanda = Comanda.objects.create(user=user, pret=total_pret, metoda_plata="ramburs")
+
+            produse_comanda = []
+
+            for item in cos:
+                try:
+                    # Convertim id-ul la UUID
+                    var_id = uuid.UUID(str(item["id"]))
+                    produs = VariantaProdus.objects.get(id_varianta=var_id)
+                    comanda.produs.add(produs)
+                    produse_comanda.append(produs)
+                except VariantaProdus.DoesNotExist:
+                    print(f"VariantaProdus cu id {item['id']} nu exista")
+                    continue
+                except ValueError:
+                    print(f"ID-ul {item['id']} nu e UUID valid")
+                    continue
+
+            html_string = render_to_string(
+            "magazin_haine/factura.html",
+            {
+                "comanda": comanda,
+                "produse": produse_comanda
+            }
+        )
+
+            pdf_file = HTML(string=html_string).write_pdf()
+
+            email = EmailMessage(
+                subject="Factura comanda ta",
+                body="Atașat găsești factura pentru comanda plasată.",
+                from_email=settings.EMAIL_HOST_USER,
+                to=[request.user.email],
+            )
+
+            email.attach(
+                f"factura_{comanda.id_comanda}.pdf",
+                pdf_file,
+                "application/pdf"
+            )
+
+            email.send()
+
+            return JsonResponse({"status": "ok"})
+
+        except Exception as e:
+            print("Eroare la creare comanda:", e)
+            return JsonResponse({"status": "error", "message": str(e)}, status=500)
+
+    return JsonResponse({"status": "error"}, status=400)
