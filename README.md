@@ -32,7 +32,6 @@ The project follows standard Django architecture and includes authentication, pr
 </ul>
 
 <h2>Project Structure</h2>
-# Structura proiectului
 
 ```text
 manage.py
